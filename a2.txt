@@ -1,6 +1,6 @@
 [Adblock Plus 3.18]
 ! Title: 🏡 a2.txt (Imres filtre)
-! Version: 20March2025v4-Personal
+! Version: 20March2025v5-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suﬀixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-oﬀ pre-alpha list concepts of mine.
 !#if !env_mv3
@@ -13,29 +13,31 @@
 !#endif
 
 ! ——— Loosely assorted hipsters ———
-reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.Comment,.thing,shreddit-comment,article.w-full):has-text(/hat\otAb{2}\y/i)
-reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.Comment,.thing,shreddit-comment,article.w-full):has-text(/Sh[еe]-?Z\ow/i)
-microsoft.com#?#.f-size-medium.m-content-placement-item:has-text(Animation domination)
-kisscartoon.*##.related_list.full.series_links
-kisscartoon.*##.mb15
-graphtreon.com##div.hotCreators-box.col-md-4
 artstation.com#?#:is(.gallery-grid-item,.project):has-text(Barkhat Gay Traveler)
 deezer.com##div[role=gridcell]:has(>[data-testid=popularity])
-nrk.no,www-nrk-no.translate.goog##a[href*=filmpolitiet]
+deviantart.com##a[data-hook][href*="/art/"][href*=amazing-digital-circus i]
+deviantart.com##a[data-hook][href*="/art/"][href*=pomni i]
+deviantart.com##a[data-hook][href*="/art/"][href*=tadc i]
+disneyplus.com##div[class$=-asset]:has([alt*="bob's burgers" i])
+disneyplus.com##div[class$=-asset]:has([alt*=descendants i])
 disneyplus.com##div[class$=-asset]:has([alt*=mandalorian i])
 disneyplus.com##div[class$=-asset]:has([alt*=wandavision i])
-disneyplus.com##div[class$=-asset]:has([alt*=descendants i])
-disneyplus.com##div[class$=-asset]:has([alt*="bob's burgers" i])
+graphtreon.com##div.hotCreators-box.col-md-4
+kisscartoon.*##.mb15
+kisscartoon.*##.related_list.full.series_links
+microsoft.com#?#.f-size-medium.m-content-placement-item:has-text(Animation domination)
+netflix.com##.billboard-row
+netflix.com##.lolomoRow:has(svg[id^=rank])
+netflix.com##.notifications
+nrk.no,www-nrk-no.translate.goog##a[href*=filmpolitiet]
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.Comment,.thing,shreddit-comment,article.w-full):has-text(/A\maz\ing\s?D\ig\ital\s?C\ircus|P\o\mni/i)
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.Comment,.thing,shreddit-comment,article.w-full):has-text(/hat\otAb{2}\y/i)
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.Comment,.thing,shreddit-comment,article.w-full):has-text(/Sh[еe]-?Z\ow/i)
 rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img[title*=saberspar])
 rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img[title*=sabiespar])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img[title~=minecraft])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img[title~=roblox])
 ssbwiki.com##.infobox tr:has(a[href^="/Tournament_legal"])
-netflix.com##.notifications
-netflix.com##.lolomoRow:has(svg[id^=rank])
-netflix.com##.billboard-row
-deviantart.com##a[data-hook][href*="/art/"][href*=amazing-digital-circus i]
-deviantart.com##a[data-hook][href*="/art/"][href*=tadc i]
-deviantart.com##a[data-hook][href*="/art/"][href*=pomni i]
 www.deviantart.com##div[style^="width:"][style*="display:"]:has(a[href*="/art/"]):has([href*=pomni i],[href*=amazing-digital-circus i],[href*=tadc i])
 
 ! Must keep the "www." part
