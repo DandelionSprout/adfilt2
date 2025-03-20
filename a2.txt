@@ -1,6 +1,6 @@
 [Adblock Plus 3.18]
 ! Title: 🏡 a2.txt (Imres filtre)
-! Version: 20March2025v3-Personal
+! Version: 20March2025v4-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suﬀixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-oﬀ pre-alpha list concepts of mine.
 !#if !env_mv3
@@ -53,3 +53,4 @@ www.tumblr.com#?#div[data-cell-id^=post-]:has(span p:has-text(/^.*#.*po\mn\i.*$/
 www.tumblr.com#?#div[data-cell-id^=post-]:has(span p:has-text(/^.*lo{2}k\s?how\s?the\y\s?\mas{2}ace?red\s?\m\y.*$/i)
 www.tumblr.com#?#div[data-cell-id^=post-]:has(span p:has-text(/^.*e{2}ve{2}lut\ion.*$/i)
 www.tumblr.com#?#div[data-cell-id^=post-]:has(span p:has-text(/^.*#d\isne\y\s?next\s?gen.*$/i)
+www.tumblr.com#?#div[data-cell-id^=post-]:has(span p:has-text(/^.*n\ick\y\s?l\ittle.*$/i)
