@@ -1,12 +1,55 @@
 [Adblock Plus 3.18]
 ! Title: 🏡 a2.txt (Imres filtre)
-! Version: 20March2025v2-Personal
+! Version: 20March2025v3-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suﬀixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-oﬀ pre-alpha list concepts of mine.
 !#if !env_mv3
 !#if !ext_ubol
 !#if !adguard_ext_android_cb
 !#include UndertaleRemoverForSoundCloud.txt
+!#include AntiPorkMeatOnRestaurantMenusList.txt
 !#endif
 !#endif
 !#endif
+
+! ——— Loosely assorted hipsters ———
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.Comment,.thing,shreddit-comment,article.w-full):has-text(/hat\otAb{2}\y/i)
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.Comment,.thing,shreddit-comment,article.w-full):has-text(/Sh[еe]-?Z\ow/i)
+microsoft.com#?#.f-size-medium.m-content-placement-item:has-text(Animation domination)
+kisscartoon.*##.related_list.full.series_links
+kisscartoon.*##.mb15
+graphtreon.com##div.hotCreators-box.col-md-4
+artstation.com#?#:is(.gallery-grid-item,.project):has-text(Barkhat Gay Traveler)
+deezer.com##div[role=gridcell]:has(>[data-testid=popularity])
+nrk.no,www-nrk-no.translate.goog##a[href*=filmpolitiet]
+disneyplus.com##div[class$=-asset]:has([alt*=mandalorian i])
+disneyplus.com##div[class$=-asset]:has([alt*=wandavision i])
+disneyplus.com##div[class$=-asset]:has([alt*=descendants i])
+disneyplus.com##div[class$=-asset]:has([alt*="bob's burgers" i])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.Comment,.thing,shreddit-comment,article.w-full):has-text(/A\maz\ing\s?D\ig\ital\s?C\ircus|P\o\mni/i)
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img[title*=saberspar])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img[title*=sabiespar])
+ssbwiki.com##.infobox tr:has(a[href^="/Tournament_legal"])
+netflix.com##.notifications
+netflix.com##.lolomoRow:has(svg[id^=rank])
+netflix.com##.billboard-row
+deviantart.com##a[data-hook][href*="/art/"][href*=amazing-digital-circus i]
+deviantart.com##a[data-hook][href*="/art/"][href*=tadc i]
+deviantart.com##a[data-hook][href*="/art/"][href*=pomni i]
+www.deviantart.com##div[style^="width:"][style*="display:"]:has(a[href*="/art/"]):has([href*=pomni i],[href*=amazing-digital-circus i],[href*=tadc i])
+
+! Must keep the "www." part
+www.adressa.no##a[href*=trdby]
+
+! ——— Tumblr is a complete nightmare to synchronise the syntaxes of, so I'll gradually group all Tumblr entries here whenever new parts of Tumblr need new syntaxes ———
+! ••• https://www.tumblr.com/dashboard/following •••
+www.tumblr.com#?#div[data-cell-id^=post-]:has(span p:has-text(/^.*\jack\s?frost.*$/i)
+www.tumblr.com#?#div[data-cell-id^=post-]:has(span p:has-text(/^.*d\isne\y\s?descendants.*$/i)
+www.tumblr.com#?#div[data-cell-id^=post-]:has(span p:has-text(/^.*sponge\s?bob.*$/i):has-text(/bowl|fo{2}tbal{2}|swe{2}t\sv\ictory/i)
+www.tumblr.com#?#div[data-cell-id^=post-]:has(span p:has-text(/^.*h\illenb[ue]rg.*$/i)
+www.tumblr.com#?#div[data-cell-id^=post-]:has(span p:has-text(/^.*#.*a\maz\ing.*d\ig\ital.*c\ircus.*$/i)
+www.tumblr.com#?#div[data-cell-id^=post-]:has(span p:has-text(/^.*#.*tadc.*$/i)
+www.tumblr.com#?#div[data-cell-id^=post-]:has(span p:has-text(/^.*#.*po\mn\i.*$/i)
+www.tumblr.com#?#div[data-cell-id^=post-]:has(span p:has-text(/^.*lo{2}k\s?how\s?the\y\s?\mas{2}ace?red\s?\m\y.*$/i)
+www.tumblr.com#?#div[data-cell-id^=post-]:has(span p:has-text(/^.*e{2}ve{2}lut\ion.*$/i)
+www.tumblr.com#?#div[data-cell-id^=post-]:has(span p:has-text(/^.*#d\isne\y\s?next\s?gen.*$/i)
