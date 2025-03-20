@@ -1,6 +1,6 @@
 [Adblock Plus 3.18]
 ! Title: 🏡 a2.txt (Imres filtre)
-! Version: 20March2025v6-Personal
+! Version: 20March2025v7-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suﬀixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-oﬀ pre-alpha list concepts of mine.
 !#if !env_mv3
@@ -44,7 +44,7 @@ www.deviantart.com##div[style^="width:"][style*="display:"]:has(a[href*="/art/"]
 www.adressa.no##a[href*=trdby]
 
 ! ——— Tumblr is a complete nightmare to synchronise the syntaxes of, so I'll gradually group all Tumblr entries here whenever new parts of Tumblr need new syntaxes ———
-! ••• https://www.tumblr.com/dashboard/following •••
+! ••• https://www.tumblr.com/dashboard/following ••• (Syntax last checked: 20 March 2025)
 www.tumblr.com#?#div[data-cell-id][style^="top:"]:has(span p:has-text(/^.*\jack\s?frost.*$/i):watch-attr(class):watch-attr(style)
 www.tumblr.com#?#div[data-cell-id][style^="top:"]:has(span p:has-text(/^.*d\isne\y\s?descendants.*$/i):watch-attr(class):watch-attr(style)
 www.tumblr.com#?#div[data-cell-id][style^="top:"]:has(span p:has-text(/^.*sponge\s?bob.*$/i):has-text(/bowl|fo{2}tbal{2}|swe{2}t\sv\ictory/i):watch-attr(class):watch-attr(style)
@@ -56,7 +56,7 @@ www.tumblr.com#?#div[data-cell-id][style^="top:"]:has(span p:has-text(/^.*lo{2}k
 www.tumblr.com#?#div[data-cell-id][style^="top:"]:has(span p:has-text(/^.*e{2}ve{2}lut\ion.*$/i):watch-attr(class):watch-attr(style)
 www.tumblr.com#?#div[data-cell-id][style^="top:"]:has(span p:has-text(/^.*#d\isne\y\s?next\s?gen.*$/i):watch-attr(class):watch-attr(style)
 www.tumblr.com#?#div[data-cell-id][style^="top:"]:has(span p:has-text(/^.*n\ick\y\s?l\ittle.*$/i):watch-attr(class):watch-attr(style)
-! ••• Tag-hid posts (Can't be readily merged into the above entries) •••
+! ••• Tag-hid posts (Can't be readily merged into the above entries) ••• (Syntax last checked: 20 March 2025)
 www.tumblr.com##div[data-cell-id][style^="top:"]:has(p + a[href*="/account#"]:has-text(/^.*\jack\s?frost.*$/i)):watch-attr(class):watch-attr(style)
 www.tumblr.com##div[data-cell-id][style^="top:"]:has(p + a[href*="/account#"]:has-text(/^.*d\isne\y\s?descendants.*$/i)):watch-attr(class):watch-attr(style)
 www.tumblr.com##div[data-cell-id][style^="top:"]:has(p + a[href*="/account#"]:has-text(/^.*sponge\s?bob.*$/i):has-text(/bowl|fo{2}tbal{2}|swe{2}t\sv\ictory/i)):watch-attr(class):watch-attr(style)
