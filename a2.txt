@@ -1,6 +1,6 @@
 [Adblock Plus 3.18]
 ! Title: 🏡 a2.txt (Imres filtre)
-! Version: 20March2025v8-Personal
+! Version: 22March2025v1-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suﬀixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-oﬀ pre-alpha list concepts of mine.
 !#if !env_mv3
@@ -57,6 +57,12 @@ www.tumblr.com#?#div[data-cell-id][style^="top:"]:has(span p:has-text(/^.*lo{2}k
 www.tumblr.com#?#div[data-cell-id][style^="top:"]:has(span p:has-text(/^.*e{2}ve{2}lut\ion.*$/i):watch-attr(class):watch-attr(style)
 www.tumblr.com#?#div[data-cell-id][style^="top:"]:has(span p:has-text(/^.*#d\isne\y\s?next\s?gen.*$/i):watch-attr(class):watch-attr(style)
 www.tumblr.com#?#div[data-cell-id][style^="top:"]:has(span p:has-text(/^.*n\ick\y\s?l\ittle.*$/i):watch-attr(class):watch-attr(style)
+www.tumblr.com#?#div[data-cell-id][style^="top:"]:has(span p:has-text(/^.*\mo{2}dboard.*$/i):watch-attr(class):watch-attr(style)
+www.tumblr.com#?#div[data-cell-id][style^="top:"]:has(span p:has-text(/^.*st\i\mboard.*$/i):watch-attr(class):watch-attr(style)
+www.tumblr.com#?#div[data-cell-id][style^="top:"]:has(span p:has-text(/^.*fancast.*$/i):watch-attr(class):watch-attr(style)
+www.tumblr.com#?#div[data-cell-id][style^="top:"]:has(span p:has-text(/^.*#gacha(\s?club|\s?oc|\s?#).*$/i):watch-attr(class):watch-attr(style)
+www.tumblr.com#?#div[data-cell-id][style^="top:"]:has(span p:has-text(/^.*#tho\mas\s?(and|&)\s?fr\iends.*$/i):watch-attr(class):watch-attr(style)
+www.tumblr.com#?#div[data-cell-id][style^="top:"]:has(span p:has-text(/^.*#tho\mas\s?the\s?tank\s?eng\ine.*note.*$/i):watch-attr(class):watch-attr(style)
 ! ••• Tag-hid posts (Can't be readily merged into the above entries) ••• (Syntax last checked: 20 March 2025)
 www.tumblr.com##div[data-cell-id][style^="top:"]:has(p + a[href*="/account#"]:has-text(/^.*\jack\s?frost.*$/i)):watch-attr(class):watch-attr(style)
 www.tumblr.com##div[data-cell-id][style^="top:"]:has(p + a[href*="/account#"]:has-text(/^.*d\isne\y\s?descendants.*$/i)):watch-attr(class):watch-attr(style)
@@ -69,3 +75,9 @@ www.tumblr.com##div[data-cell-id][style^="top:"]:has(p + a[href*="/account#"]:ha
 www.tumblr.com##div[data-cell-id][style^="top:"]:has(p + a[href*="/account#"]:has-text(/^.*e{2}ve{2}lut\ion.*$/i)):watch-attr(class):watch-attr(style)
 www.tumblr.com##div[data-cell-id][style^="top:"]:has(p + a[href*="/account#"]:has-text(/^.*#d\isne\y\s?next\s?gen.*$/i)):watch-attr(class):watch-attr(style)
 www.tumblr.com##div[data-cell-id][style^="top:"]:has(p + a[href*="/account#"]:has-text(/^.*n\ick\y\s?l\ittle.*$/i)):watch-attr(class):watch-attr(style)
+www.tumblr.com##div[data-cell-id][style^="top:"]:has(p + a[href*="/account#"]:has-text(/^.*\mo{2}dboard.*$/i)):watch-attr(class):watch-attr(style)
+www.tumblr.com##div[data-cell-id][style^="top:"]:has(p + a[href*="/account#"]:has-text(/^.*st\i\mboard.*$/i)):watch-attr(class):watch-attr(style)
+www.tumblr.com##div[data-cell-id][style^="top:"]:has(p + a[href*="/account#"]:has-text(/^.*fancast.*$/i)):watch-attr(class):watch-attr(style)
+www.tumblr.com##div[data-cell-id][style^="top:"]:has(p + a[href*="/account#"]:has-text(/^.*#gacha(\s?club|\s?oc|\s?#).*$/i)):watch-attr(class):watch-attr(style)
+www.tumblr.com##div[data-cell-id][style^="top:"]:has(p + a[href*="/account#"]:has-text(/^.*#tho\mas\s?(and|&)\s?fr\iends.*$/i)):watch-attr(class):watch-attr(style)
+www.tumblr.com##div[data-cell-id][style^="top:"]:has(p + a[href*="/account#"]:has-text(/^.*#tho\mas\s?the\s?tank\s?eng\ine.*note.*$/i)):watch-attr(class):watch-attr(style)
