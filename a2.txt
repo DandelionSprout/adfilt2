@@ -1,6 +1,6 @@
 [Adblock Plus 3.18]
 ! Title: 🏡 a2.txt (Imres filtre)
-! Version: 22March2025v1-Personal
+! Version: 24March2025v1-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suﬀixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-oﬀ pre-alpha list concepts of mine.
 !#if !env_mv3
@@ -81,3 +81,8 @@ www.tumblr.com##div[data-cell-id][style^="top:"]:has(p + a[href*="/account#"]:ha
 www.tumblr.com##div[data-cell-id][style^="top:"]:has(p + a[href*="/account#"]:has-text(/^.*#gacha(\s?club|\s?oc|\s?#).*$/i)):watch-attr(class):watch-attr(style)
 www.tumblr.com##div[data-cell-id][style^="top:"]:has(p + a[href*="/account#"]:has-text(/^.*#tho\mas\s?(and|&)\s?fr\iends.*$/i)):watch-attr(class):watch-attr(style)
 www.tumblr.com##div[data-cell-id][style^="top:"]:has(p + a[href*="/account#"]:has-text(/^.*#tho\mas\s?the\s?tank\s?eng\ine.*note.*$/i)):watch-attr(class):watch-attr(style)
+
+! Easier sorting during tag edits
+rule34.xxx###post-view .flexi:has(img[src*=jpeg]):style(background-color:pink)
+rule34.xxx###post-view .flexi:has(img[src*=png]):style(background-color:orange)
+rule34.xxx###post-view .flexi:has(img[src*=jpg]):style(background-color:darkblue)
