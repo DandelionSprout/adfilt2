@@ -1,6 +1,6 @@
 [Adblock Plus 3.18]
 ! Title: 🏡 a2.txt
-! Version: 09April2025v2-Personal
+! Version: 09April2025v3-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suﬀixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-oﬀ pre-alpha list concepts of mine.
 !#if !env_mv3
@@ -95,3 +95,5 @@ rule34.xxx###post-view .flexi:has(img[src*=jpg]):style(background-color:darkblue
 
 ! Testing for PowerDVD 16
 ||liveupdate.cyberlink.com/*/banner_image^
+@@$doc,removeparam=/^.*_dest_url=.*$/,badfilter
+!#ad
