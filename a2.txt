@@ -1,6 +1,6 @@
 [Adblock Plus 3.18]
 ! Title: 🏡 a2.txt
-! Version: 12April2025v1-Personal
+! Version: 13April2025v1-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suﬀixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-oﬀ pre-alpha list concepts of mine.
 !#if !env_mv3
@@ -97,10 +97,30 @@ rule34.xxx###post-view .flexi:has(img[src*=jpg]):style(background-color:darkblue
 ||liveupdate.cyberlink.com/*/banner_image^
 
 ! It gets tiring to have to handle 8-year olds all the time
+!#if !env_mobile
+pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*="title in description" i])
+pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*="title too long" i])
+pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*="title is too long" i])
+pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*="title in the description" i])
+pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*="Read The Descriptions " i])
+pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*="Read the title down below" i])
+!#endif
+!#if env_mobile
+pixiv.net##.works-item:has(img[alt*="title in description" i])
+pixiv.net##.works-item:has(img[alt*="title too long" i])
+pixiv.net##.works-item:has(img[alt*="title is too long" i])
+pixiv.net##.works-item:has(img[alt*="title in the description" i])
+pixiv.net##.works-item:has(img[alt*="Read The Descriptions " i])
+pixiv.net##.works-item:has(img[alt*="Read the title down below" i])
+!#endif
 furaffinity.net##figure[id]:has(figcaption a[href*="/view/"][title*="title is far too long" i])
 furaffinity.net##figure[id]:has(figcaption a[href*="/view/"][title*="title is too long" i])
 furaffinity.net##figure[id]:has(figcaption a[href*="/view/"][title*="title too long" i])
+furaffinity.net##figure[id]:has(figcaption a[href*="/view/"][title="long title" i])
 furaffinity.net##figure[id][class*=ucashurford199]
 
 ! I don't trust those requests
 ||mc.yandex.ru^$domain=sotwe.com
+
+! Human companies learned nothing whatsoever from the NFT market bubble burst
+github.com##div[data-testid=sidebar-section]:has(div[class*=CopilotWorkspaceButton i])
