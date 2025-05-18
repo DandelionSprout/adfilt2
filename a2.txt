@@ -1,6 +1,6 @@
 [Adblock Plus 3.18]
 ! Title: 🏡 a2.txt
-! Version: 18April2025v1-Personal
+! Version: 18May2025v1-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suﬀixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-oﬀ pre-alpha list concepts of mine.
 !#if !env_mv3
@@ -67,6 +67,8 @@ www.tumblr.com#?#div[data-cell-id][style^="top:"]:has(span p:has-text(/^.*fancas
 www.tumblr.com#?#div[data-cell-id][style^="top:"]:has(span p:has-text(/^.*#gacha(\s?club|\s?oc|\s?#).*$/i)):watch-attr(class):watch-attr(style)
 www.tumblr.com#?#div[data-cell-id][style^="top:"]:has(span p:has-text(/^.*#tho\mas\s?(and|&)\s?fr\iends.*$/i)):watch-attr(class):watch-attr(style)
 www.tumblr.com#?#div[data-cell-id][style^="top:"]:has(span p:has-text(/^.*#tho\mas\s?the\s?tank\s?eng\ine.*note.*$/i)):watch-attr(class):watch-attr(style)
+www.tumblr.com#?#div[data-cell-id][style^="top:"]:has(span p:has-text(/^.*sh\itr\E[a]l.*$/i)):watch-attr(class):watch-attr(style)
+www.tumblr.com#?#div[data-cell-id][style^="top:"]:has(span p:has-text(/^.*is{1}n\otr\Eal.*note.*$/i)):watch-attr(class):watch-attr(style)
 ! ••• Tag-hid posts (Can't be readily merged into the above entries) ••• (Syntax last checked: 20 March 2025)
 www.tumblr.com##div[data-cell-id][style^="top:"]:has(p + a[href*="/account#"]:has-text(/^.*\jack\s?frost.*$/i)):watch-attr(class):watch-attr(style)
 www.tumblr.com##div[data-cell-id][style^="top:"]:has(p + a[href*="/account#"]:has-text(/^.*d\isne\y\s?descendants.*$/i)):watch-attr(class):watch-attr(style)
@@ -86,6 +88,9 @@ www.tumblr.com##div[data-cell-id][style^="top:"]:has(p + a[href*="/account#"]:ha
 www.tumblr.com##div[data-cell-id][style^="top:"]:has(p + a[href*="/account#"]:has-text(/^.*#tho\mas\s?(and|&)\s?fr\iends.*$/i)):watch-attr(class):watch-attr(style)
 www.tumblr.com##div[data-cell-id][style^="top:"]:has(p + a[href*="/account#"]:has-text(/^.*#tho\mas\s?the\s?tank\s?eng\ine.*note.*$/i)):watch-attr(class):watch-attr(style)
 www.tumblr.com##div[data-cell-id][style^="top:"]:has(p + a[href*="/account#"]:has-text(/^.*#sims.*le[gp]acy.*$/i)):watch-attr(class):watch-attr(style)
+www.tumblr.com##div[data-cell-id][style^="top:"]:has(p + a[href*="/account#"]:has-text(/^.*sh\itr\E[a]l.*$/i)):watch-attr(class):watch-attr(style)
+www.tumblr.com##div[data-cell-id][style^="top:"]:has(p + a[href*="/account#"]:has-text(/^.*is{1}n\otr\Eal.*$/i)):watch-attr(class):watch-attr(style)
+
 ! ••• Search results (Syntax last checked: 30 March 2025) •••
 www.tumblr.com##div[tabindex][style^=margin-top]:has(article:has-text(/^.*#sims.*le[gp]acy.*$/))
 
