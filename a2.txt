@@ -1,6 +1,6 @@
 [Adblock Plus 3.18]
 ! Title: 🏡 a2.txt
-! Version: 20May2025v1-Personal
+! Version: 23May2025v1-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suﬀixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-oﬀ pre-alpha list concepts of mine.
 !#if !env_mv3
@@ -104,9 +104,11 @@ rule34.xxx###post-view .flexi:has(img[src*=jpg]):style(background-color:darkblue
 ! Testing for AdGuard for Windows
 ! PowerDVD 16
 ||liveupdate.cyberlink.com/*/banner_image^
+!#if adguard_app_windows
 ! MSN Weather
-||assets.msn.com/content/v*/cms/api/amp^
-||img-s-msn-com.akamaized.net/tenant/amp^
+||assets.msn.com/content/v*/cms/api/amp^$app=Microsoft.Msn.Weather.exe
+||img-s-msn-com.akamaized.net/tenant/amp^$app=Microsoft.Msn.Weather.exe
+!#endif
 
 ! It gets tiring to have to handle 8-year olds all the time
 !#if !env_mobile
