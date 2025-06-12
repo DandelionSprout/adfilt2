@@ -1,6 +1,6 @@
 [Adblock Plus 3.18]
 ! Title: 🏡 a2.txt
-! Version: 12June2025v1-Personal
+! Version: 12June2025v2-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suﬀixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-oﬀ pre-alpha list concepts of mine.
 !#if !env_mv3
@@ -151,3 +151,6 @@ github.com##div[data-testid=sidebar-section]:has(div[class*=CopilotWorkspaceButt
 ://parody*.fandom.com^$doc
 !! The Sims Wikia
 fandom.com#?#.mw-changeslist-human:has-text(/\s\Fanon:./)
+
+! Idiotic news topics
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,nidaros.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=mccann i]
