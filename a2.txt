@@ -1,6 +1,6 @@
 [Adblock Plus 3.18]
 ! Title: 🏡 a2.txt
-! Version: 12June2025v2-Personal
+! Version: 25June2025v1-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suﬀixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-oﬀ pre-alpha list concepts of mine.
 !#if !env_mv3
@@ -47,6 +47,7 @@ ssbwiki.com##.infobox tr:has(a[href^="/Tournament_legal"])
 www.deviantart.com##div[style^="width:"][style*="display:"]:has(a[href*="/art/"]):has([href*=pomni i],[href*=amazing-digital-circus i],[href*=tadc i])
 ||www.tumblr.com^$all,~third-party
 ||rule34.xyz^$doc,popup,domain=~too_much_unblockable_futanari.*
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,tentaclerape.net##.thumb:has(img[title*=dendrawx])
 
 ! Must keep the "www." part
 www.adressa.no##a[href*=trdby]
