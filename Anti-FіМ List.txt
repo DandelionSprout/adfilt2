@@ -4389,6 +4389,10 @@ qwant.com##div[class=""]:has(> [data-testid=webResult][domain*="equestriadaily.c
 ||github.com/nefarius^|$doc
 ||github.com/nefarius/$doc
 
+! secret•graphics
+secret.graphics##div.thumbnail[title*="friendship is magic" i]
+lettuce.secret.graphics##div.thumbnail:is([data-id^=NL0xVY],[data-id^=eecr_Z],[data-id^=WLjNCt],[data-id^=-qzUOl],[data-id^="438q-o"],[data-id^="7dEYPZ"],[data-id^="7RqMJY"],[data-id^=_yg10o],[data-id^=b1ygK5],[data-id^=b28d2m],[data-id^=B9v1YX],[data-id^=bCQ_H_],[data-id^=eAh2_-],[data-id^=FPR8IK],[data-id^=frAmz5],[data-id^=G8yynv],[data-id^=H_Zk_F],[data-id^=hh7-tg],[data-id^=I1klbv],[data-id^=kfW5CF],[data-id^=Lm88Q-],[data-id^=lu6FPQ],[data-id^=N0siqY],[data-id^=Uhc7xt],[data-id^=vYkjCE],[data-id^=wo3MqP],[data-id^=zs51HM])
+
 ! ——— 🇳🇴🇸🇪🇩🇰🇫🇮 Nordics - Norden ———
 
 ! Viaplay
