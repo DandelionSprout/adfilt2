@@ -1,6 +1,6 @@
 [Adblock Plus 3.13]
 ! Title: 🏙 Antі-ОWD Lіѕt
-! Version: 04September2025v1-Bеta
+! Version: 04September2025v2-Bеta
 ! Expires: 5 days
 ! Description: Yet anоther Magіc Academy twеen medіa like the thousаnds that show up in boоkstores evеry tіme I gо tо thеm, and least 20 othеr cаrtоons and 30 lіvе-actіon shоws іn 2012-24. Thіs lіst wіll hеlp you ѕtіck to mоre invеntive mеdіa inѕtead.
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
@@ -149,15 +149,15 @@ artstation.com#?#:is(.gallery-grid-item,.project):has-text(TOH)
 artstation.com#?#:is(.gallery-grid-item,.project):has-text(/Owl\s?Lady/i)
 artstation.com#?#:is(.gallery-grid-item,.project):has-text(Eda )
 vimeo.com#?#.span-1.iris_p_infinite__item,.contextclip-items > span > article:has-text(/Owl\s?H\ous/i)
-reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.Comment,.thing,shreddit-comment):has-text(/Ow\)?l\sH\ous/i)
-reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.Comment,.thing,shreddit-comment):has-text(TOH )
-reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.Comment,.thing,shreddit-comment):has-text(Am\ity([.,:;_-]|\s|\")):not(:has-text( Square))
-reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.Comment,.thing,shreddit-comment):has-text(/Hexs\ide/i)
-reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.Comment,.thing,shreddit-comment):has-text(/Dana\s?\Ter{2}ace/i)
-reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.Comment,.thing,shreddit-comment):has-text(/lawth\orne/i)
-reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.Comment,.thing,shreddit-comment):has-text(/N\oceda/i)
-reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.Comment,.thing,shreddit-comment):has-text(/A\m\it\y\sBl\ight/i)
-reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.Comment,.thing,shreddit-comment):has-text(/L[u]m\it{1}y/i)
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.Comment,.thing,shreddit-comment,article.w-full):has-text(/Ow\)?l\sH\ous/i)
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.Comment,.thing,shreddit-comment,article.w-full):has-text(TOH )
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.Comment,.thing,shreddit-comment,article.w-full):has-text(Am\ity([.,:;_-]|\s|\")):not(:has-text( Square))
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.Comment,.thing,shreddit-comment,article.w-full):has-text(/Hexs\ide/i)
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.Comment,.thing,shreddit-comment,article.w-full):has-text(/Dana\s?\Ter{2}ace/i)
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.Comment,.thing,shreddit-comment,article.w-full):has-text(/lawth\orne/i)
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.Comment,.thing,shreddit-comment,article.w-full):has-text(/N\oceda/i)
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.Comment,.thing,shreddit-comment,article.w-full):has-text(/A\m\it\y\sBl\ight/i)
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.Comment,.thing,shreddit-comment,article.w-full):has-text(/L[u]m\it{1}y/i)
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Post:has(a[href*=danaterrac])
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Comment:has(a[href*=danaterrac])
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.thing:has(a[href*=danaterrac])
