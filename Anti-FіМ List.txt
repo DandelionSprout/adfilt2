@@ -1,6 +1,6 @@
 [Adblock Plus 3.18]
 ! Title: 👸 Anti-"FіМ and MLP G6" List
-! Version: 08September2025v1
+! Version: 08September2025v2
 ! Expires: 5 days
 ! Description: Do you feel that Friendship is Magic overstayed its welcome? Here's a list that'll let you keep more of a distance to it.
 ! Motivation: You probably think that I'm one of those "Men shouldn't watch My Little Pony" fools? Nope, on the contrary. Being a fulltime viewer of actual preschool cartoons (read: Nella the Princess Knight, The Dog & Pony Show, etc.), and have therefore seen just how staggeringly irrational that bronies can act towards them, I consider bronies to be fakers who preach hatred, destruction, and clan mentality, and I strongly regret that I was once one of them, many years ago.
@@ -1378,6 +1378,7 @@ pixiv.net##li[class*=" "]:has(a[href*="/artworks/"]):has(a[href$="users/12608484
 pixiv.net##li[class*=" "]:has(a[href*="/artworks/"]):has(a[href$="users/9095291"])
 pixiv.net##li[class*=" "]:has(a[href*="/artworks/"]):has(a[href$="users/13472402"])
 pixiv.net##li[class*=" "]:has(a[href*="/artworks/"]):has(a[href$="users/20300760"])
+pixiv.net##li[class*=" "]:has(a[href*="/artworks/"]):has(a[href$="users/100404768"])
 pixiv.net##li[class*=" "]:has(a[href*="/artworks/"]):has(a[href$="users/134217881"])
 pixiv.net#?#li[class*=" "]:has(>div>div>a:has-text(/^twi$/))
 !#endif
