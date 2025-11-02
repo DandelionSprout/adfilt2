@@ -1,6 +1,6 @@
 [Adblock Plus 3.18]
 ! Title: 🏡 a2.txt
-! Version: 02November2025v4-Personal
+! Version: 02November2025v5-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suﬀixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-oﬀ pre-alpha list concepts of mine.
 !#if !env_mv3
@@ -22,7 +22,7 @@ nrk.no,tv2.no##a[href*=aret-anne-sar i]
 nrk.no,tv2.no##a[href*=-tate-modern- i]
 nrk.no,tv2.no##a[href*=repparfjor i]
 nrk.no,tv2.no##a[href*=-nussir- i]
-rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img:is([title~=with],[title~=to],[title~=of],[title~=for],[title~=the],[title~=is],[title~=its],[title~=or],[title~=a],[title~=and]):not([title*=bodysu],[title*=atex],[title*=rubbe],[title*=vibrat],[title*=","],[title*="."))
+rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img:is([title~=with],[title~=to],[title~=of],[title~=for],[title~=the],[title~=is],[title~=its],[title~=or],[title~=a],[title~=and]):not([title*=bodysu],[title*=atex],[title*=rubbe],[title*=vibrat],[title*=","],[title*="."]))
 
 ! ——— Loosely assorted hipsters ———
 artstation.com#?#:is(.gallery-grid-item,.project):has-text(Barkhat Gay Traveler)
