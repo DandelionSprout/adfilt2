@@ -1,0 +1,43 @@
+[Adblock Plus 3.15]
+! Title: Mahsa Amini (Jina Amini) Memorial List
+! Version: 09November2025v1-Alpha
+! Description: This list is dedicated to the honour and legacy of Mahsa/Jina/Zhina Amini. Hĳabs will never be feminist, feminism, nor pro-diversity, and various youth movements should be deeply ashamed of themselves for thinking it is, and who thus are spitting on her posthumous legacy's gravestone and on every participant in the Iranian 2022-23 protests.
+! من در کنار معترضان ایرانی ایستاده ام
+
+! Pixiv
+pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=zahra i][alt*=glitch i]:not([href*=sinclair i]))
+pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=zahra i][alt*=five i]:not([href*=sinclair i]))
+pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=zahra i][alt*=kubota i]:not([href*=sinclair i]))
+pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=zahra i][alt*=nieves i]:not([href*=sinclair i]))
+pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=zahra i][alt*=miko i]:not([href*=sinclair i]))
+pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=zahra i][alt*=rashid i]:not([href*=sinclair i]))
+pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=hijab i])
+pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=niqab i])
+pixiv.net##.works-item:has(img[alt*=zahra i][alt*=glitch i]:not([href*=sinclair i]))
+pixiv.net##.works-item:has(img[alt*=zahra i][alt*=five i]:not([href*=sinclair i]))
+pixiv.net##.works-item:has(img[alt*=zahra i][alt*=kubota i]:not([href*=sinclair i]))
+pixiv.net##.works-item:has(img[alt*=zahra i][alt*=nieves i]:not([href*=sinclair i]))
+pixiv.net##.works-item:has(img[alt*=zahra i][alt*=miko i]:not([href*=sinclair i]))
+pixiv.net##.works-item:has(img[alt*=zahra i][alt*=rashid i]:not([href*=sinclair i]))
+pixiv.net##.works-item:has(img[alt*=hijab i])
+pixiv.net##.works-item:has(img[alt*=niqab i])
+
+! Deviantart
+www.deviantart.com##div[style^="width:"][style*="display:"]:has(a[href*="/art/"]):has([href*=zahra i][alt*=glitch i],[href*=zahra i][alt*=five i],[href*=zahra i][alt*=kubota i],[href*=zahra i][alt*=nieves i],[href*=zahra i][alt*=miko i],[href*=zahra i][alt*=rashid i],[href*=hijab i],[href*=niqab i]:not([href*=sinclair i]))
+deviantart.com##a[data-hook][href*="/art/"][href*=zahra i][alt*=glitch i]:not([href*=sinclair i])
+deviantart.com##a[data-hook][href*="/art/"][href*=zahra i][alt*=five i]:not([href*=sinclair i])
+deviantart.com##a[data-hook][href*="/art/"][href*=zahra i][alt*=kubota i]:not([href*=sinclair i])
+deviantart.com##a[data-hook][href*="/art/"][href*=zahra i][alt*=nieves i]:not([href*=sinclair i])
+deviantart.com##a[data-hook][href*="/art/"][href*=zahra i][alt*=miko i]:not([href*=sinclair i])
+deviantart.com##a[data-hook][href*="/art/"][href*=zahra i][alt*=rashid i]:not([href*=sinclair i])
+deviantart.com##a[data-hook][href*="/art/"][href*=hijab i]
+deviantart.com##a[data-hook][href*="/art/"][href*=niqab i]
+
+! Tumblr
+tumblr.com#?#:is(.post,div[data-cell-id][style]:not([data-cell-id*=carousel]),div[tabindex]:is([style^=m],[data-id]:not([class*=" "]),:not([style],[class]))):has-text(/^.*Zahra.*$/i):has-text(/^.*(gl\itch|f\ive|kub\ota|n\ieves|\m\ik\o|rash\id|t[eе]chs|nickel\ode\on|netfl\ix).*$/i):not(:has-text(/^.*(s\incla\ir|d\ouble.*cr\oss).*$/i))
+tumblr.com#?#:is(.post,div[data-cell-id][style]:not([data-cell-id*=carousel]),div[tabindex]:is([style^=m],[data-id]:not([class*=" "]),:not([style],[class]))):has-text(/#.*H(\i\j|ĳ)ab.*n\otes/i):not(:has-text(/(Mahsa|Jina|Amini)/i))
+tumblr.com#?#:is(.post,div[data-cell-id][style]:not([data-cell-id*=carousel]),div[tabindex]:is([style^=m],[data-id]:not([class*=" "]),:not([style],[class]))):has-text(/#.*N\iq[аa]b.*n\otes/i)
+
+! Artstation
+artstation.com#?#:is(.gallery-grid-item,.project):has-text(/^.*H(\i\j|ĳ)ab.*$/i)
+artstation.com#?#:is(.gallery-grid-item,.project):has-text(/^.*N\iq[аa]b.*$/i)
