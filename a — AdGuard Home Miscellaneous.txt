@@ -1,6 +1,6 @@
 [Adblock Plus 3.6]
 ! Title: 🏘 Semi-public stuff for Dandelion Sprout's Official DNS Server
-! Version: 14December2025v1
+! Version: 14December2025v2
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
 ! Description: Spun off from a.txt when I began placing public scrutiny on myself and my DNS server, as I didn't intend for some of the entries in it to be blocked by DNS server users that weren't myself, and I didn't except even hardcore tech experts to know that "$document" meant that the entries didn't apply to the server.
 
@@ -144,24 +144,24 @@ zone "www.nrk.no" { type master; notify no; file "null.zone.file"; };
 
 ! ———Handling LAN-specific domains, hoping that various devices can handle IP address redirections like these———
 ! https://github.com/AdguardTeam/AdGuardHome/discussions/2901#discussioncomment-11033278
-|local|$dnsrewrite=127.0.0.1,dnstype=~AAAA|~CNAME
-|local|$dnsrewrite=::1,dnstype=AAAA
-|localdomain|$dnsrewrite=127.0.0.1,dnstype=~AAAA|~CNAME
-|localdomain|$dnsrewrite=::1,dnstype=AAAA
+!|local|$dnsrewrite=127.0.0.1,dnstype=~AAAA|~CNAME
+!|local|$dnsrewrite=::1,dnstype=AAAA
+!|localdomain|$dnsrewrite=127.0.0.1,dnstype=~AAAA|~CNAME
+!|localdomain|$dnsrewrite=::1,dnstype=AAAA
 ! https://locall.host/localhost-localdomain/
-|localhost|$dnsrewrite=127.0.0.1,dnstype=~AAAA|~CNAME
-|localhost|$dnsrewrite=::1,dnstype=AAAA
-|localhost.localdomain|$dnsrewrite=127.0.0.1,dnstype=~AAAA|~CNAME
-|localhost.localdomain|$dnsrewrite=::1,dnstype=AAAA
+!|localhost|$dnsrewrite=127.0.0.1,dnstype=~AAAA|~CNAME
+!|localhost|$dnsrewrite=::1,dnstype=AAAA
+!|localhost.localdomain|$dnsrewrite=127.0.0.1,dnstype=~AAAA|~CNAME
+!|localhost.localdomain|$dnsrewrite=::1,dnstype=AAAA
 
 ! ——— Handling major bugs on devices that are affected by the «64:ff9b::» timeout bug in Windows (Whether the bug is also in other OSs is unclear to me at the time of writing) ———
 !! Epic Games Store's Android store's game pages
-||content-download-egs.distro.on.epicgames.com^$dnstype=AAAA
-||library-service.*.on.epicgames.com^$dnstype=AAAA
+!||content-download-egs.distro.on.epicgames.com^$dnstype=AAAA
+!||library-service.*.on.epicgames.com^$dnstype=AAAA
 !! PlutoTV channels
-||service-users.clusters.pluto.tv^$dnstype=AAAA
-*1.prd.pluto.tv^$dnstype=AAAA
-|sp.pluto.tv^$dnstype=AAAA
+!||service-users.clusters.pluto.tv^$dnstype=AAAA
+!*1.prd.pluto.tv^$dnstype=AAAA
+!|sp.pluto.tv^$dnstype=AAAA
 !#endif
 !#endif
 !#endif
