@@ -1,6 +1,6 @@
 [Adblock Plus 3.18]
 ! Title: 👸 Anti-"FіМ and MLP G6" List
-! Version: 22October2025v1
+! Version: 19December2025v1
 ! Expires: 5 days
 ! Description: Do you feel that Friendship is Magic overstayed its welcome? Here's a list that'll let you keep more of a distance to it.
 ! Motivation: You probably think that I'm one of those "Men shouldn't watch My Little Pony" fools? Nope, on the contrary. Being a fulltime viewer of actual preschool cartoons (read: Nella the Princess Knight, The Dog & Pony Show, etc.), and have therefore seen just how staggeringly irrational that bronies can act towards them, I consider bronies to be fakers who preach hatred, destruction, and clan mentality, and I strongly regret that I was once one of them, many years ago.
@@ -1225,6 +1225,7 @@ pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=adagio i][alt*=dazz
 pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=dj_pon-3 i])
 pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=draconequus i])
 pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=applebloom i])
+pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=apple_bloom i])
 pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=Lulamoon i])
 pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=starlight i][alt*=glimmer i])
 pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*="sweeite, belle" i])
@@ -1367,6 +1368,9 @@ pixiv.net##li[class*=" "]:has(a[href*="/artworks/"]):has(a[href$="users/20300760
 pixiv.net##li[class*=" "]:has(a[href*="/artworks/"]):has(a[href$="users/100404768"])
 pixiv.net##li[class*=" "]:has(a[href*="/artworks/"]):has(a[href$="users/134217881"])
 pixiv.net##li[class*=" "]:has(a[href*="/artworks/"]):has(a[href$="users/114208113"])
+pixiv.net##li[class*=" "]:has(a[href*="/artworks/"]):has(a[href$="users/25307790"])
+pixiv.net##li[class*=" "]:has(a[href*="/artworks/"]):has(a[href$="users/67739761"])
+
 pixiv.net#?#li[class*=" "]:has(>div>div>a:has-text(/^twi$/))
 !#endif
 !#if env_mobile
@@ -1441,6 +1445,7 @@ pixiv.net##.works-item:has(img[alt*=adagio i][alt*=dazzle i])
 pixiv.net##.works-item:has(img[alt*=dj_pon-3 i])
 pixiv.net##.works-item:has(img[alt*=draconequus i])
 pixiv.net##.works-item:has(img[alt*=applebloom i])
+pixiv.net##.works-item:has(img[alt*=apple_bloom i])
 pixiv.net##.works-item:has(img[alt*=Lulamoon i])
 pixiv.net##.works-item:has(img[alt*=starlight i][alt*=glimmer i])
 pixiv.net##.works-item:has(img[alt*="sweeite, belle" i])
