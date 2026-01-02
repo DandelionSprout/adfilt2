@@ -1,6 +1,6 @@
 [Adblock Plus 3.18]
 ! Title: 👸 Anti-"FіМ and MLP G6" List
-! Version: 19December2025v1
+! Version: 02January2026v1
 ! Expires: 5 days
 ! Description: Do you feel that Friendship is Magic overstayed its welcome? Here's a list that'll let you keep more of a distance to it.
 ! Motivation: You probably think that I'm one of those "Men shouldn't watch My Little Pony" fools? Nope, on the contrary. Being a fulltime viewer of actual preschool cartoons (read: Nella the Princess Knight, The Dog & Pony Show, etc.), and have therefore seen just how staggeringly irrational that bronies can act towards them, I consider bronies to be fakers who preach hatred, destruction, and clan mentality, and I strongly regret that I was once one of them, many years ago.
@@ -4173,6 +4173,7 @@ soundcloud.com#?#:is(.badgeList__item,.g-scrollable-inner li,.systemPlaylistTrac
 
 ! Random Wikias
 freakylogo.fandom.com##a[href="/wiki/Category:Logos_that_scare_The_Princesses_of_Ponyville"]
+siivagunner.fandom.com##a[href$=":_Friendship_Is_Magic" i]
 
 ! Konachan
 konachan.com,yande.re,hypnohub.net,lolibooru.moe###post-list-posts>li:has(img[title*=my_little_pony])
@@ -4405,6 +4406,7 @@ sfanytime.com##a[href*="/my-little-pony-"]
 ! 🇳🇴 TV2 Play Norway
 play.tv2.no##a[href*=my-little-pony-filmen]
 play.tv2.no##a[href*=my-little-pony-the-movie]
+play.tv2.no##li:not([class]):has(> div[data-testid*=feed-item] a[href*="/my-little-pony-"])
 
 ! ——— 🇨🇳 PR-China (mainland only) - 中华人民共和国 (只含大陆) ———
 
