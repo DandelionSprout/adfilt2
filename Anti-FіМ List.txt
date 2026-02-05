@@ -1,6 +1,6 @@
 [Adblock Plus 3.18]
 ! Title: 👸 Anti-"FіМ and MLP G6" List
-! Version: 31January2026v1
+! Version: 05February2026v1
 ! Expires: 5 days
 ! Description: Do you feel that Friendship is Magic overstayed its welcome? Here's a list that'll let you keep more of a distance to it.
 ! Motivation: You probably think that I'm one of those "Men shouldn't watch My Little Pony" fools? Nope, on the contrary. Being a fulltime viewer of actual preschool cartoons (read: Nella the Princess Knight, The Dog & Pony Show, etc.), and have therefore seen just how staggeringly irrational that bronies can act towards them, I consider bronies to be fakers who preach hatred, destruction, and clan mentality, and I strongly regret that I was once one of them, many years ago.
@@ -2790,14 +2790,14 @@ furaffinity.net##figure:has(img[data-tags*=shadowbolt])
 furaffinity.net##figure:has(img[data-tags*=auntie_lofty])
 furaffinity.net##figure:has(img[data-tags~=ponytown])
 furaffinity.net##figure:has(img[data-tags$=equestria])
-furaffinity.com##.t-image:has(a[title*=Heartstrings i])
-furaffinity.com##.t-image:has(a[title*=dashie i])
-furaffinity.com##.t-image:has(a[title*=SirSirloi i])
-furaffinity.com##.t-image:has(a[title$=" Caroo"])
-furaffinity.com##.t-image:has(a[title$=asdfr123456])
-furaffinity.com##.t-image:has(a[title^="0r0 "])
-furaffinity.com##.t-image:has(a[title~=glimmy i])
-furaffinity.com##.t-image:has(a[title$=" SluttiestCat"])
+furaffinity.net##.t-image:has(a[title*=Heartstrings i])
+furaffinity.net##.t-image:has(a[title*=dashie i])
+furaffinity.net##.t-image:has(a[title*=SirSirloi i])
+furaffinity.net##.t-image:has(a[title$=" Caroo"])
+furaffinity.net##.t-image:has(a[title$=asdfr123456])
+furaffinity.net##.t-image:has(a[title^="0r0 "])
+furaffinity.net##.t-image:has(a[title~=glimmy i])
+furaffinity.net##.t-image:has(a[title$=" SluttiestCat"])
 
 ! Mastodon
 mastodon.*,mstdn.*,mas.to,pawoo.net,fosstodon.org,fandom.ink,tchncs.de,octodon.social,sinblr.com,baraag.net,xxxtumblr.org#?#:is(.entry,.statuses-grid__item,.status__wrapper):has-text(/(\(|\s)EqG(\)|\s)/)
