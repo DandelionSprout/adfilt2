@@ -1,7 +1,7 @@
 [Adblock Plus 3.15]
 ! Title: Mahsa Amini (Jina Amini) Memorial List
-! Version: 14November2025v2-Alpha
-! Description: This list is dedicated to the honour and legacy of Mahsa/Jina/Zhina Amini. Hĳabs will never be feminist, feminism, nor pro-diversity, and various youth movements should be deeply ashamed of themselves for thinking it is, and who thus are spitting on her posthumous legacy's gravestone and on every participant in the Iranian 2022-23 protests.
+! Version: 15February2026v1-Beta
+! Description: This list is dedicated to the honour and legacy of Mahsa/Jina/Zhina Amini. Hĳabs will never be feminist, feminism, nor pro-diversity, and various youth movements should be deeply ashamed of themselves for thinking it is, and who thus are spitting on her posthumous legacy's gravestone and on every participant of the Iranian 2022-23 protests.
 ! من در کنار معترضان ایرانی ایستاده ام
 
 ! Pixiv
@@ -13,6 +13,7 @@ pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=zahra i][alt*=miko 
 pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=zahra i][alt*=rashid i]:not([href*=sinclair i]))
 pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=hijab i])
 pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=niqab i])
+pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=burqa i])
 pixiv.net##.works-item:has(img[alt*=zahra i][alt*=glitch i]:not([href*=sinclair i]))
 pixiv.net##.works-item:has(img[alt*=zahra i][alt*=five i]:not([href*=sinclair i]))
 pixiv.net##.works-item:has(img[alt*=zahra i][alt*=kubota i]:not([href*=sinclair i]))
@@ -21,6 +22,7 @@ pixiv.net##.works-item:has(img[alt*=zahra i][alt*=miko i]:not([href*=sinclair i]
 pixiv.net##.works-item:has(img[alt*=zahra i][alt*=rashid i]:not([href*=sinclair i]))
 pixiv.net##.works-item:has(img[alt*=hijab i])
 pixiv.net##.works-item:has(img[alt*=niqab i])
+pixiv.net##.works-item:has(img[alt*=burqa i])
 
 ! Deviantart
 www.deviantart.com##div[style^="width:"][style*="display:"]:has(a[href*="/art/"]):has([href*=zahra i][alt*=glitch i],[href*=zahra i][alt*=five i],[href*=zahra i][alt*=kubota i],[href*=zahra i][alt*=nieves i],[href*=zahra i][alt*=miko i],[href*=zahra i][alt*=rashid i],[href*=hijab i],[href*=niqab i]:not([href*=sinclair i]))
@@ -32,6 +34,7 @@ deviantart.com##a[data-hook][href*="/art/"][href*=zahra i][alt*=miko i]:not([hre
 deviantart.com##a[data-hook][href*="/art/"][href*=zahra i][alt*=rashid i]:not([href*=sinclair i])
 deviantart.com##a[data-hook][href*="/art/"][href*=hijab i]
 deviantart.com##a[data-hook][href*="/art/"][href*=niqab i]
+deviantart.com##a[data-hook][href*="/art/"][href*=burqa i]
 
 ! Tumblr
 tumblr.com#?#:is(.post,div[data-cell-id][style]:not([data-cell-id*=carousel]),div[tabindex]:is([style^=m],[data-id]:not([class*=" "]),:not([style],[class]))):has-text(/^.*Zahra.*$/i):has-text(/^.*(gl\itch|f\ive|kub\ota|n\ieves|\m\ik\o|rash\id|t[eе]chs|nickel\ode\on|netfl\ix).*$/i):not(:has-text(/^.*(s\incla\ir|d\ouble.*cr\oss).*$/i))
@@ -41,9 +44,11 @@ tumblr.com#?#:is(.post,div[data-cell-id][style]:not([data-cell-id*=carousel]),di
 ! Artstation
 artstation.com#?#:is(.gallery-grid-item,.project):has-text(/^.*H(\i\j|ĳ)ab.*$/i)
 artstation.com#?#:is(.gallery-grid-item,.project):has-text(/^.*N\iq[аa]b.*$/i)
+artstation.com#?#:is(.gallery-grid-item,.project):has-text(/^.*bur{1}qa.*$/i)
 
 ! R34X³
 rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img[title*=hijab])
+rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img[title*=burqa])
 rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img[title*=niqab])
 rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img[title*=zahra_rashid])
 rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img[title*="zari_(duolingo"])
