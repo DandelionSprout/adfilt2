@@ -1,4 +1,4 @@
-[Adblock Plus 3.18]
+﻿[Adblock Plus 3.18]
 ! Title: 🏡 a2.txt
 ! Version: 13January2025v1-Personal
 ! Expires: 12 hours
@@ -130,13 +130,13 @@ rule34.xxx###post-view .flexi:has(img[src*=jpg]):style(background-color:darkblue
 
 ! It gets tiring to have to handle 8-year olds all the time.
 !#if !env_mobile
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*="title in description" i])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*="title too long" i])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*="title is too long" i])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*="title in the description" i])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*="Read The Descriptions " i])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*="Read the title down below" i])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=desciprion i])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*="title in description" i])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*="title too long" i])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*="title is too long" i])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*="title in the description" i])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*="Read The Descriptions " i])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*="Read the title down below" i])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=desciprion i])
 !#endif
 !#if env_mobile
 pixiv.net##.works-item:has(img[alt*="title in description" i])

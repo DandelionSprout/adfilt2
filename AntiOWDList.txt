@@ -1,4 +1,4 @@
-[Adblock Plus 3.13]
+﻿[Adblock Plus 3.13]
 ! Title: 🏙 Antі-ОWD Lіѕt
 ! Version: 04September2025v2-Bеta
 ! Expires: 5 days
@@ -8,20 +8,20 @@
 !#if !env_mv3
 ! All adblоckers
 pinterest.*#?#div[class*=_brioPin],div[data-grid-item]:has-text(/Owl\s?H\ous/i)
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img:is([alt*=" hous" i],[alt*=wlh i],[alt*="_hous" i])[alt*=owl i])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=" TOH "])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=umity][alt*=Lumit])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*="Devoted Witch"])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=dalia][alt*=Odal]:not([alt*=alias i]))
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=Amity])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=mIty i]:not([alt*=poke i],[alt*=poké i],[alt*=square i])[alt*=amit i])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=lawthorne i])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=Boschlow i])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=Willuz i])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*="Willow Park" i])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=Disne i][alt~=Eda i])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=Noced i])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=hunter i][alt*=shota i])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img:is([alt*=" hous" i],[alt*=wlh i],[alt*="_hous" i])[alt*=owl i])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=" TOH "])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=umity][alt*=Lumit])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*="Devoted Witch"])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=dalia][alt*=Odal]:not([alt*=alias i]))
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=Amity])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=mIty i]:not([alt*=poke i],[alt*=poké i],[alt*=square i])[alt*=amit i])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=lawthorne i])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=Boschlow i])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=Willuz i])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*="Willow Park" i])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=Disne i][alt~=Eda i])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=Noced i])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=hunter i][alt*=shota i])
 pixiv.net##.works-item:has(img:is([alt*=" hous" i],[alt*=wlh i],[alt*="_hous" i])[alt*=owl i])
 pixiv.net##.works-item:has(img[alt*=" TOH "])
 pixiv.net##.works-item:has(img[alt*=umity][alt*=Lumit])

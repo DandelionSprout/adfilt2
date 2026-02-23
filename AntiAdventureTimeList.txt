@@ -1,4 +1,4 @@
-[Adblock Plus 3.13]
+﻿[Adblock Plus 3.13]
 ! Title: 🏭 Anti-'Adventure Time' List
 ! Version: 17March2024v1-Alpha
 ! Expires: 5 days
@@ -287,21 +287,21 @@ e621.net,donmai.us,allthefallen.moe##article[data-tags*=adventure_time]
 hentai-foundry.com#?#.thumb_square:has-text(/Pr\inces{2}/i):has-text(/Bub{2}legu\m/i)
 hentai-foundry.com#?#.thumb_square:has-text(/F\i\on{2}a/i)
 !#if !env_mobile
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=Adventure i][alt*=Time i])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=Princess i][alt*=Bubblegum i])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=bonnibel i])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*="flame, princess" i])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=flameprincess i])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*="flame princess" i])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=marceline i])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=lemongrab i])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=finn i][alt*=bubblegum i])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=プリンセス][alt*=バブルガム])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=bubbline i])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*="Finn the "])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=bronwyn i])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*=rainicorn i])
-pixiv.net##li[class*=" "]:has(a[href*="/artworks/"] img[alt*="fionna the " i])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=Adventure i][alt*=Time i])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=Princess i][alt*=Bubblegum i])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=bonnibel i])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*="flame, princess" i])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=flameprincess i])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*="flame princess" i])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=marceline i])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=lemongrab i])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=finn i][alt*=bubblegum i])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=プリンセス][alt*=バブルガム])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=bubbline i])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*="Finn the "])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=bronwyn i])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=rainicorn i])
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*="fionna the " i])
 !#endif
 !#if env_mobile
 pixiv.net##.works-item:has(img[alt*=Adventure i][alt*=Time i])
