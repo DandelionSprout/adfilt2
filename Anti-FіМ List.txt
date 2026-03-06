@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 3.18]
 ! Title: 👸 Anti-"FіМ and MLP G6" List
-! Version: 05February2026v1
+! Version: 06March2026v1
 ! Expires: 5 days
 ! Description: Do you feel that Friendship is Magic overstayed its welcome? Here's a list that'll let you keep more of a distance to it.
 ! Motivation: You probably think that I'm one of those "Men shouldn't watch My Little Pony" fools? Nope, on the contrary. Being a fulltime viewer of actual preschool cartoons (read: Nella the Princess Knight, The Dog & Pony Show, etc.), and have therefore seen just how staggeringly irrational that bronies can act towards them, I consider bronies to be fakers who preach hatred, destruction, and clan mentality, and I strongly regret that I was once one of them, many years ago.
@@ -4387,6 +4387,15 @@ github.com#?#.js-issue-row:has(a:has-text(nefarius))
 ! secret•graphics
 secret.graphics##div.thumbnail[title*="friendship is magic" i]
 lettuce.secret.graphics##div.thumbnail:is([data-id^=NL0xVY],[data-id^=eecr_Z],[data-id^=WLjNCt],[data-id^=-qzUOl],[data-id^="438q-o"],[data-id^="7dEYPZ"],[data-id^="7RqMJY"],[data-id^=_yg10o],[data-id^=b1ygK5],[data-id^=b28d2m],[data-id^=B9v1YX],[data-id^=bCQ_H_],[data-id^=eAh2_-],[data-id^=FPR8IK],[data-id^=frAmz5],[data-id^=G8yynv],[data-id^=H_Zk_F],[data-id^=hh7-tg],[data-id^=I1klbv],[data-id^=kfW5CF],[data-id^=Lm88Q-],[data-id^=lu6FPQ],[data-id^=N0siqY],[data-id^=Uhc7xt],[data-id^=vYkjCE],[data-id^=wo3MqP],[data-id^=zs51HM])
+
+! Very loosely sorted
+siivagunner.fandom.com##li:has(>a[href$="Slider_(Original_Version)_-_Super_Mario_64"])
+siivagunner.fandom.com##a[href$="Slider_(Original_Version)_-_Super_Mario_64"]
+siivagunner.fandom.com##li:has(>a[href$="Slider_(Multiplayer_Version)_-_Super_Mario_64_DS"])
+siivagunner.fandom.com##a[href$="Slider_(Multiplayer_Version)_-_Super_Mario_64_DS"]
+twitch.tv##li[class^=InjectLayout-sc-]:has-text(/^.*uttershy.*$/i)
+reddit.com##shreddit-comment:has(> div > div > p:has-text(/friendship\s?is\s?magic/i)):remove()
+reddit.com##shreddit-comment[author$=aunaJoy]:remove()
 
 ! ——— 🇳🇴🇸🇪🇩🇰🇫🇮 Nordics - Norden ———
 
