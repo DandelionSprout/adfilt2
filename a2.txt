@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 3.18]
 ! Title: 🏡 a2.txt
-! Version: 13January2025v1-Personal
+! Version: 07March2026v1-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suﬀixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-oﬀ pre-alpha list concepts of mine.
 !#if !env_mv3
@@ -31,6 +31,20 @@ rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,ten
 rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img[title~="super_mario_bros._(2023_film)"])
 github.com##:is(.js-issue-row,[class^=ListItems-module__listItem--]):has-text(New version: Google.Chrome)
 github.com##.js-issue-row:has-text(New version: Baidu.)
+reddit.com##shreddit-comment:has-text(/Russian bot/i)
+twitch.tv##.side-nav__scrollable_content
+twitch.tv##.side-nav--collapsed
+twitch.tv##.side-nav--expanded.side-nav.kHqXhd.Layout-sc-1xcs6mc-0 > .LJevC.Layout-sc-1xcs6mc-0
+twitch.tv##.side-nav--expanded.side-nav.kHqXhd.Layout-sc-1xcs6mc-0
+||images.deliveryhero.io/image/pd-otp-illustrations/v2/FO_NO/illu-preparing.gif^
+sims.fandom.com##.category-page__member-thumbnail:style(height:100px!important;width:100px!important)
+sims.fandom.com##.category-page__member-link:style(padding-left:30px!important)
+rule34.xxx###comment-list .thumb
+tv.nrk.no##channel-list li[class^=scroll-snap-]:has(span:has-text(/^.*(Bl{1}uey|Dan\iel\sTiger|språksj\ov).*$/i))
+foodora.*##.product-tile:has-text(/pork|champignon|brisket|jalape[nñ]o| lamme| lam |scampi|pep{2}eroni|ventr\ic\ina/i)
+pearlofindia.no##.mt-2.align-self-stretch:has-text(/(kor\iander|karr\iblad|but{2}er ch\icken|sv\in| lam | lam{2}e|reker|ma[n]go)/i)
+pinchonation.no##.products li:has-text(/REKER/i)
+wolt.com##div[data-test-id=horizontal-item-card]:has(:is(h3,p):has-text(/^.*(La{1}kse?|K\ingf\ish|Scal{2}ops|Crab),? .*$/))
 
 ! ——— Loosely assorted hipsters ———
 artstation.com#?#:is(.gallery-grid-item,.project):has-text(Barkhat Gay Traveler)
