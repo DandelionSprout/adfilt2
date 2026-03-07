@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 3.13]
 ! Title: 🏳 Anti-'Powerpuff Girls' List
-! Version: 20September2025v2-Alpha
+! Version: 07March2026v1-Alpha
 ! Expires: 5 days
 ! Description: «Powerpuff Girls», especially the 90's-00's seasons, is a cartoon that taught children such values as beating others senseless, extrajudicial violence, vigilante mob beatings, the expendability of entire neighbourhoods, and discrimination against past offenders. If you too are absolutely embarassed by ever having watched that show, here's a list for you.
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
@@ -344,6 +344,7 @@ tvtropes.org###main-article .twikilink[href*=Powerpuff]
 pixivision.net#?#.am__work:has-text(/パワー?パフ/)
 kidscreen.com##.listpost:has(a[href*=powerpuff])
 newgrounds.com##.align-center.span-1:has(a[href*=powerpuff i])
+reddit.com##shreddit-comment:has(> div > div > p:has-text(/power\s?puff/i)):remove()
 
 ! Professional media sites
 netflix.com##.ptrack-content:has(a[href*="80130973"])
