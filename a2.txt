@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 3.18]
 ! Title: 🏡 a2.txt
-! Version: 07March2026v2-Personal
+! Version: 07March2026v3-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suﬀixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-oﬀ pre-alpha list concepts of mine.
 !#if !env_mv3
@@ -46,6 +46,15 @@ pearlofindia.no##.mt-2.align-self-stretch:has-text(/(kor\iander|karr\iblad|but{2
 pinchonation.no##.products li:has-text(/REKER/i)
 wolt.com##div[data-test-id=horizontal-item-card]:has(:is(h3,p):has-text(/^.*(La{1}kse?|K\ingf\ish|Scal{2}ops|Crab),? .*$/))
 ||pornfactory.info^$doc,reason="Lurendreiere."
+$removeparam=/^=$/,domain=~bing.*
+$removeparam=/^$/
+$removeparam=//
+$removeparam=/^.{0}$/
+rule34.xxx##li:has(> [href*="tsyndicate.com"])
+videolan.org,archive.mozilla.org##:is([href*=".exe" i],[href*=".msi" i],[href*=".appx" i],[href*=winrt i],[href$=".zip"]):style(background-color:orange!important)
+cdn.kde.org,download.kde.org##:is([href*=msix i],[href$=".appx" i],[href*=winrt i],[href$=".zip" i]):style(background-color:orange!important)
+download.gnome.org##:is([href*=".exe" i],[href*=".msi" i],[href*=".appx" i],[href*=winrt i]):style(background-color:orange!important)
+download.epson-europe.com##a:is([href$=".msi"],[href$=".zip"]):style(background-color:orange!important)
 
 ! ——— Loosely assorted hipsters ———
 artstation.com#?#:is(.gallery-grid-item,.project):has-text(Barkhat Gay Traveler)
