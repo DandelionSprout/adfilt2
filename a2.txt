@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 3.18]
 ! Title: 🏡 a2.txt
-! Version: 07March2026v1-Personal
+! Version: 07March2026v2-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suﬀixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-oﬀ pre-alpha list concepts of mine.
 !#if !env_mv3
@@ -45,6 +45,7 @@ foodora.*##.product-tile:has-text(/pork|champignon|brisket|jalape[nñ]o| lamme| 
 pearlofindia.no##.mt-2.align-self-stretch:has-text(/(kor\iander|karr\iblad|but{2}er ch\icken|sv\in| lam | lam{2}e|reker|ma[n]go)/i)
 pinchonation.no##.products li:has-text(/REKER/i)
 wolt.com##div[data-test-id=horizontal-item-card]:has(:is(h3,p):has-text(/^.*(La{1}kse?|K\ingf\ish|Scal{2}ops|Crab),? .*$/))
+||pornfactory.info^$doc,reason="Lurendreiere."
 
 ! ——— Loosely assorted hipsters ———
 artstation.com#?#:is(.gallery-grid-item,.project):has-text(Barkhat Gay Traveler)
@@ -217,6 +218,5 @@ www.google.*,ipv6.google.com##div[data-st-cnt] div[role=list] > div[role=listite
 ! Actual Venezuelans hate Maduro. A fourth of Venezuela's entire population fled the country because of him. 98% of people who are not Venezuelans, clearly couldn't even have found Venezuela on a map, and have never read even one news article about its internal news.
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##shreddit-feed:is([reload-url$=insanepeoplefacebook],[reload-url$=subredditdrama]) article:is([aria-label*=venezuela i],[aria-label*=maduro i])
 
-! For the next time I upgrade my CPU.
-! https://www•gigabyte•com/Motherboard/B550-AORUS-PRO-AC-rev-1x/support#support-cpu
-www.gigabyte.com##tr[align=center]:has-text(MHz):has-text(35W):style(background-color:orange!important)
+! Aİ tech """guide""" sites
+||windowsforum.com^$doc,reason="Aİ pseudotech guides."
