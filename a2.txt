@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 3.18]
 ! Title: 🏡 a2.txt
-! Version: 15March2026v1-Personal
+! Version: 16March2026v1-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suﬀixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-oﬀ pre-alpha list concepts of mine.
 !#if !env_mv3
@@ -55,6 +55,7 @@ videolan.org,archive.mozilla.org##:is([href*=".exe" i],[href*=".msi" i],[href*="
 cdn.kde.org,download.kde.org##:is([href*=msix i],[href$=".appx" i],[href*=winrt i],[href$=".zip" i]):style(background-color:orange!important)
 download.gnome.org##:is([href*=".exe" i],[href*=".msi" i],[href*=".appx" i],[href*=winrt i]):style(background-color:orange!important)
 download.epson-europe.com##a:is([href$=".msi"],[href$=".zip"]):style(background-color:orange!important)
+$all,app=TS3W.exe
 
 ! ——— Loosely assorted hipsters ———
 artstation.com#?#:is(.gallery-grid-item,.project):has-text(Barkhat Gay Traveler)
