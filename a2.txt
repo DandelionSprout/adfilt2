@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 3.18]
 ! Title: 🏡 a2.txt
-! Version: 12April2026v5-Personal
+! Version: 12April2026v6-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suﬀixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-oﬀ pre-alpha list concepts of mine.
 !#if !env_mv3
@@ -57,7 +57,7 @@ download.gnome.org##:is([href*=".exe" i],[href*=".msi" i],[href*=".appx" i],[hre
 download.epson-europe.com##a:is([href$=".msi"],[href$=".zip"]):style(background-color:orange!important)
 $all,app=TS3W.exe
 rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img:is([title~=anus],[title*=anus_],[title*=" anus"]))
-rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img:is([title*=partial_male],[title*=faceless_male],[title~=penis],[title~=dick],[title~=cock],[title*=dick_out],[title*="3boy"],[title*="4boy"],[title*="5boy"],[title*="6boy"],[title*="7boy"],[title*="8boy"],[title*="9boy"],[title~=male_only],[title*=big_penis],[title*=large_penis],[title*=huge_penis],[title*=hyper_penis],[title*=paizuri]))
+rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img:is([title*=partial_male],[title*=faceless_male],[title~=penis],[title~=dick],[title~=cock],[title*=dick_out],[title*="3boy"],[title*="4boy"],[title*="5boy"],[title*="6boy"],[title*="7boy"],[title*="8boy"],[title*="9boy"],[title~=male_only],[title*=big_penis],[title*=large_penis],[title*=huge_penis],[title*=hyper_penis],[title*=paizuri],[title~=cum))
 rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img:is([title*=ripped_cloth],[title*=ripped_bodysu],[title*=torn_cloth],[title*=torn_bodysu],[title*=wardrobe_malfunct]))
 rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img:is([title*=pregnan],[title*=impregna]))
 
