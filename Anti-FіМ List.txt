@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 3.18]
 ! Title: 👸 Anti-"FіМ and MLP G6" List
-! Version: 29March2026v1
+! Version: 26April2026v1
 ! Expires: 5 days
 ! Description: Do you feel that Friendship is Magic overstayed its welcome? Here's a list that'll let you keep more of a distance to it.
 ! Motivation: You probably think that I'm one of those "Men shouldn't watch My Little Pony" fools? Nope, on the contrary. Being a fulltime viewer of actual preschool cartoons (read: Nella the Princess Knight, The Dog & Pony Show, etc.), and have therefore seen just how staggeringly irrational that bronies can act towards them, I consider bronies to be fakers who preach hatred, destruction, and clan mentality, and I strongly regret that I was once one of them, many years ago.
@@ -2821,6 +2821,11 @@ furaffinity.net##.t-image:has(a[title~=glimmy i])
 furaffinity.net##.t-image:has(a[title$=" SluttiestCat"])
 furaffinity.net##.t-image:has(a[title*=loofy-Skunk i])
 furaffinity.net##.t-image:has(a[title*=brony i])
+furaffinity.net##figure:has(img[data-tags*=bat_pony])
+furaffinity.net##figure:has(img[data-tags~=bat][data-tags~=pony])
+furaffinity.net##figure:has(>figcaption>p>a[title~=poner i])
+furaffinity.net##figure:has(>figcaption>p>a[title*=" poner~" i])
+furaffinity.net##figure:has(img[data-tags*=tzug][data-tags*=pony])
 
 ! Mastodon
 mastodon.*,mstdn.*,mas.to,pawoo.net,fosstodon.org,fandom.ink,tchncs.de,octodon.social,sinblr.com,baraag.net,xxxtumblr.org#?#:is(.entry,.statuses-grid__item,.status__wrapper):has-text(/(\(|\s)EqG(\)|\s)/)
