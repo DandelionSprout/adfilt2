@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 3.18]
 ! Title: 🏡 a2.txt
-! Version: 17April2026v1-Personal
+! Version: 26April2026v1-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suﬀixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-oﬀ pre-alpha list concepts of mine.
 !#if !env_mv3
@@ -62,6 +62,19 @@ rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,ten
 rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img:is([title*=pregnan],[title*=impregna]))
 rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img:is([title~=anal],[title^=anal_]))
 rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img:is([title^=anal],[title*=" anal"]):not([title*=analog]))
+github.com##a#code-view-repo-link[href$="/adfilt"] ~ div .react-directory-row:has-text(/^.*(Happ\y\T\i\me\FunClub|R\ickrollL\ink\Ident\if\ier|Ass\istantReborn|Extre\mel\yCondensedL\ist|GDPR\s451|Battle\sRo\yale|Fake\sNot\if\icat\ion\s|Userna\me\sH\ider|Google\sHangout|Tw\itterPureRead\ing\Exper\ience|A\mazonL\ist\For\Tw\itch|D\isallowed\IPs|Anno\y\ingBannersAnd\Overla\ys|\sCarols|Pro-L\ED|Ant\iPork\Meat\OnRestaurant\MenusL\ist|Anc\ientL\ibrar\y|Ant\i-Sk\ype\sL\ist|Ant\iPepeL\ist|AntiKpopSpammersTwitter|TwitchPureViewingExperience|WordPressTranslatorAssistant).*$/i):style(background-color: #5E3350 !important)
+||wikipedia.org/portal/wikipedia.org/assets/img/wikipedia25-$media
+www.wikipedia.org##.wikipedia25-play-button
+www.wikipedia.org##.wikipedia25-cta-container
+tv.nrk.no##.channel-item-container:has-text(Bluey)
+momondo.*##.Jqc0
+||share.google/aimode^$doc,reason="Aİ-greier."
+sims.fandom.com##.listfiles tr:has-text(/(Mil{2}ie|Daphi{2}|fanon|asabiOS)/i)
+|https://archive.org/details/ds-firmware-european-dsi-nand-and-firmware|$doc,reason="Ikke den riktige"
+|https://archive.org/details/ds-firmware_dsi-nand-and-firmware|$doc,reason="undefined ARM7 instruction ED06878E @ 00008350"
+||techbloat.com^$doc,reason="Aİ-written guides (Unconfirmed)."
+||thewindowsclub.com^$doc,reason="Aİ-written guides."
+nuget.org##li:has-text(/\d{2,}\.\d\d? MB\)/):style(background-color:green!important;color:#FFF!important)
 
 ! ——— Loosely assorted hipsters ———
 artstation.com#?#:is(.gallery-grid-item,.project):has-text(Barkhat Gay Traveler)
