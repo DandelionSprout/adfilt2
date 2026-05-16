@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 3.18]
 ! Title: 🏡 a2.txt
-! Version: 16May2026v1-Personal
+! Version: 16May2026v2-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suﬀixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-oﬀ pre-alpha list concepts of mine.
 !#if !env_mv3
@@ -87,6 +87,7 @@ $all,app=Notepad.exe
 ||hikarifield.co.jp^$doc,reason="Weebery."
 ||bing.com/RelatedSearch^$app=SystemSettings.exe
 ||dc.services.visualstudio.com/v*/track^
+://sfdataservice.microsoft.com/smartinstall/v1.0/suggestions/suggest^
 
 ! ——— Loosely assorted hipsters ———
 artstation.com#?#:is(.gallery-grid-item,.project):has-text(Barkhat Gay Traveler)
