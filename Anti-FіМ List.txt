@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 3.18]
 ! Title: 👸 Anti-"FіМ and MLP G6" List
-! Version: 26April2026v1
+! Version: 18May2026v1
 ! Expires: 5 days
 ! Description: Do you feel that Friendship is Magic overstayed its welcome? Here's a list that'll let you keep more of a distance to it.
 ! Motivation: You probably think that I'm one of those "Men shouldn't watch My Little Pony" fools? Nope, on the contrary. Being a fulltime viewer of actual preschool cartoons (read: Nella the Princess Knight, The Dog & Pony Show, etc.), and have therefore seen just how staggeringly irrational that bronies can act towards them, I consider bronies to be fakers who preach hatred, destruction, and clan mentality, and I strongly regret that I was once one of them, many years ago.
@@ -1321,8 +1321,8 @@ pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] im
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=Sonaria]):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=Minuette i]):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=Canterlot i]):remove()
-pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=Shadowbolt i]):remove()
-pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=ilovekimpossiblealot i]):remove()
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=hadowbolt i]):remove()
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=ilovekimpossiblealo i]):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=Flurry i][alt*=Cadence i]):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=Flutterdash i]):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*="Prince Blueblood" i]):remove()
@@ -1350,6 +1350,9 @@ pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] im
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=rainbowfactory i]):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*="babs seed" i]):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=smilehd i]):remove()
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=pinkie i]:is([alt*=discord i],[alt*=cheese i],[alt*=gummy i],[alt*=maud i],[alt*=rapper i])):remove()
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=アップルブルーム]):remove()
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=cesscadance i]):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"]):has-text(/^.*The\sGre{1}at\sand\sPow[e]rful\s?(([a-np-z0-9.,:;?!=_#’“”-]|\s|\'|\").*)?$/i):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"]):has-text(Underpable):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"]):has-text(MMLPAP):remove()
@@ -2826,6 +2829,7 @@ furaffinity.net##figure:has(img[data-tags~=bat][data-tags~=pony])
 furaffinity.net##figure:has(>figcaption>p>a[title~=poner i])
 furaffinity.net##figure:has(>figcaption>p>a[title*=" poner~" i])
 furaffinity.net##figure:has(img[data-tags*=tzug][data-tags*=pony])
+furaffinity.net##figure:has(>figcaption>p>a[title~=spitfire i])
 
 ! Mastodon
 mastodon.*,mstdn.*,mas.to,pawoo.net,fosstodon.org,fandom.ink,tchncs.de,octodon.social,sinblr.com,baraag.net,xxxtumblr.org#?#:is(.entry,.statuses-grid__item,.status__wrapper):has-text(/(\(|\s)EqG(\)|\s)/)
