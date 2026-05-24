@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 3.18]
 ! Title: 👸 Anti-"FіМ and MLP G6" List
-! Version: 18May2026v1
+! Version: 25May2026v1
 ! Expires: 5 days
 ! Description: Do you feel that Friendship is Magic overstayed its welcome? Here's a list that'll let you keep more of a distance to it.
 ! Motivation: You probably think that I'm one of those "Men shouldn't watch My Little Pony" fools? Nope, on the contrary. Being a fulltime viewer of actual preschool cartoons (read: Nella the Princess Knight, The Dog & Pony Show, etc.), and have therefore seen just how staggeringly irrational that bronies can act towards them, I consider bronies to be fakers who preach hatred, destruction, and clan mentality, and I strongly regret that I was once one of them, many years ago.
@@ -1183,6 +1183,7 @@ pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] im
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=Cheesepie]):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt~=Cadance i]):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt~="Cadance," i]):remove()
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=princes i][alt*=cadance i]):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=sunset i][alt*=shimmer i]):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=equestria_girl i]):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=equestriagirl i]):remove()
@@ -1206,7 +1207,7 @@ pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] im
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=diamondtiara i]):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=chrysalis i]):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=sonata i][alt*=dusk i]):remove()
-pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=pony i]:is([alt*=octavia i],[alt*=kirin i],[alt*=Discord i],[alt~=twi i],[alt*="photo finish" i],[alt*=gallus i],[alt*=ルナ])):remove()
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=pony i]:is([alt*=octavia i],[alt*=kirin i],[alt*=Discord i],[alt~=twi i],[alt*="photo finish" i],[alt*=gallus i],[alt*=ルナ],[alt*=cadence i],[alt*=pommel i])):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*="mlp: fm" i]):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*="Apple Bloom" i]):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*="Flurry Heart" i]):remove()
@@ -1352,7 +1353,8 @@ pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] im
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=smilehd i]):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=pinkie i]:is([alt*=discord i],[alt*=cheese i],[alt*=gummy i],[alt*=maud i],[alt*=rapper i])):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=アップルブルーム]):remove()
-pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=cesscadance i]):remove()
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=flutthershy i]):remove()
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=flattershy i]):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"]):has-text(/^.*The\sGre{1}at\sand\sPow[e]rful\s?(([a-np-z0-9.,:;?!=_#’“”-]|\s|\'|\").*)?$/i):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"]):has-text(Underpable):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"]):has-text(MMLPAP):remove()
@@ -1374,7 +1376,7 @@ pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"]):h
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"]):has(a[href$="users/114208113"]):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"]):has(a[href$="users/25307790"]):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"]):has(a[href$="users/67739761"]):remove()
-
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"]):has(a[href$="users/3995994"]):remove()
 pixiv.net#?#li[class*=" "]:has(>div>div>a:has-text(/^twi$/))
 !#endif
 !#if env_mobile
