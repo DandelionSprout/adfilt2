@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 3.18]
 ! Title: 👸 Anti-"FіМ and MLP G6" List
-! Version: 25May2026v1
+! Version: 29May2026v1
 ! Expires: 5 days
 ! Description: Do you feel that Friendship is Magic overstayed its welcome? Here's a list that'll let you keep more of a distance to it.
 ! Motivation: You probably think that I'm one of those "Men shouldn't watch My Little Pony" fools? Nope, on the contrary. Being a fulltime viewer of actual preschool cartoons (read: Nella the Princess Knight, The Dog & Pony Show, etc.), and have therefore seen just how staggeringly irrational that bronies can act towards them, I consider bronies to be fakers who preach hatred, destruction, and clan mentality, and I strongly regret that I was once one of them, many years ago.
@@ -129,6 +129,7 @@
 *twilight-sparkle*.fandom.com/$document,domain=~brony_or_mlp_g4_site.*
 ||fimfetch.net^$document,domain=~brony_or_mlp_g4_site.*
 ||nefarius.at^$document,domain=~brony_site.*
+||sitespeed.io^$document,domain=~brony_site.*
 
 !#if ext_ublock
 !#if env_firefox
@@ -287,6 +288,7 @@
 ||[2600:1f18:6316:a600::face]^
 ||fimfetch.net^
 ||nefarius.at^
+||sitespeed.io^
 !#endif
 
 ! ——— 🌍 International (High-coverage sites) ———
