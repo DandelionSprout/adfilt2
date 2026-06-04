@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 3.18]
 ! Title: 🏡 a2.txt
-! Version: 25May2026v1-Personal
+! Version: 04June2026v1-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suﬀixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-oﬀ pre-alpha list concepts of mine.
 !#if !env_mv3
@@ -261,7 +261,9 @@ www.google.*,ipv6.google.com##div[data-st-cnt] div[role=list] > div[role=listite
 ://www.msn.com/en-us/news^$doc,reason="For mange illegitime løgnhalskilder"
 
 ! Aİ tech """guide""" sites
+! As of 4 June 2026, there's reason to assume that all tech sites that don't disclose author names = Aİ.
 ||windowsforum.com^$doc,reason="Aİ pseudotech guides."
+||geeksdigit.com^$doc,reason="Aİ articles."
 
 ! Had blocked Google account syncs in Bluestacks
 @@|tcp://android.googleapis.com^
