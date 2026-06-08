@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 3.18]
 ! Title: 👸 Anti-"FіМ and MLP G6" List
-! Version: 07June2026v1
+! Version: 08June2026v1
 ! Expires: 5 days
 ! Description: Do you feel that Friendship is Magic overstayed its welcome? Here's a list that'll let you keep more of a distance to it.
 ! Motivation: You probably think that I'm one of those "Men shouldn't watch My Little Pony" fools? Nope, on the contrary. Being a fulltime viewer of actual preschool cartoons (read: Nella the Princess Knight, The Dog & Pony Show, etc.), and have therefore seen just how staggeringly irrational that bronies can act towards them, I consider bronies to be fakers who preach hatred, destruction, and clan mentality, and I strongly regret that I was once one of them, many years ago.
@@ -1160,9 +1160,9 @@ pinterest.*#?#div:is([class*=_brioPin],[data-grid-item]):has-text(/equestr?\ian\
 ! New search results, image suggestions on image pages, carousel items on image pages, and home page
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=friendship_is_magic i]):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=friendshipismagic i]):remove()
-pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"] img[alt*=my i][alt*=little i][alt*=pony i]:not([alt*=G1 i], [alt*=Tales i], [alt*=G2 i], [alt*=G3 i], [alt*=G5 i], [alt*=Gen5 i], [alt*=life i], [alt*="Toola-Roolaたん"], [alt*=izzy i], [alt*=Moonbow i], [alt*=pipp i])):not(:has-text(/ものの|自分|リファー|clover\m\into|N\ya{2}su/))
-pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"] img[alt~="mlp," i]:not([alt*=G1 i], [alt*=Tales i], [alt*=G2 i], [alt*=G3 i], [alt*=G5 i], [alt*=Gen5 i], [alt*=Generation5 i], [alt*=life i], [alt*="Toola-Roolaたん"], [alt*=izzy i], [alt*=Moonbow i], [alt*=pipp i], [alt*="Silent Scream" i], [alt*=Starsong i])):not(:has-text(/ものの|自分|リファー|clover\m\into|N\ya{2}su/))
-pixiv.net#?#li[class*=" "]:has(a[href*="/artworks/"] img[alt~=mlp i]:not([alt*=G1 i], [alt*=Tales i], [alt*=G2 i], [alt*=G3 i], [alt*=G5 i], [alt*=Gen5 i], [alt*=Generation5 i], [alt*=life i], [alt*="Toola-Roolaたん"], [alt*=izzy i], [alt*=Moonbow i], [alt*=pipp i], [alt*=Lightly])):not(:has-text(/ものの|自分|リファー|clover\m\into|N\ya{2}su/))
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=my i][alt*=little i][alt*=pony i]:not([alt*=G1 i], [alt*=Tales i], [alt*=G2 i], [alt*=G3 i], [alt*=G5 i], [alt*=Gen5 i], [alt*=life i], [alt*="Toola-Roolaたん"], [alt*=izzy i], [alt*=Moonbow i], [alt*=pipp i])):not(:has-text(/ものの|自分|リファー|clover\m\into|N\ya{2}su/))
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt~="mlp," i]:not([alt*=G1 i], [alt*=Tales i], [alt*=G2 i], [alt*=G3 i], [alt*=G5 i], [alt*=Gen5 i], [alt*=Generation5 i], [alt*=life i], [alt*="Toola-Roolaたん"], [alt*=izzy i], [alt*=Moonbow i], [alt*=pipp i], [alt*="Silent Scream" i], [alt*=Starsong i])):not(:has-text(/ものの|自分|リファー|clover\m\into|N\ya{2}su/))
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt~=mlp i]:not([alt*=G1 i], [alt*=Tales i], [alt*=G2 i], [alt*=G3 i], [alt*=G5 i], [alt*=Gen5 i], [alt*=Generation5 i], [alt*=life i], [alt*="Toola-Roolaたん"], [alt*=izzy i], [alt*=Moonbow i], [alt*=pipp i], [alt*=Lightly])):not(:has-text(/ものの|自分|リファー|clover\m\into|N\ya{2}su/))
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=Trixie i]:is([alt*=mlp i],[alt*=pony i],[alt*=ponies i],[alt*=horse i],[alt*=unicorn i],[alt*=twilight i],[alt*=Starlight i],[alt*=Glimmer i])):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=twilight i]:is([alt*=sparkle i],[alt*=Cadence i],[alt*=furry i],[alt*=proteg i],[alt*=pony i],[alt*=Tempest i],[alt*=Glimmer i])):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=Celestia i]:is([alt*=horse i],[alt*=booty i],[alt*=pony i],[alt*=princess i])):remove()
@@ -1358,6 +1358,8 @@ pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] im
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=flutthershy i]):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=flattershy i]):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt~=poner]):remove()
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=twipie i]):remove()
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*="friendship is magic i]):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"]):has-text(/^.*The\sGre{1}at\sand\sPow[e]rful\s?(([a-np-z0-9.,:;?!=_#’“”-]|\s|\'|\").*)?$/i):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"]):has-text(Underpable):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"]):has-text(MMLPAP):remove()
