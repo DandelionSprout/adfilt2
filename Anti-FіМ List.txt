@@ -1,9 +1,9 @@
 ﻿[Adblock Plus 3.18]
 ! Title: 👸 Anti-"FіМ and MLP G6" List
-! Version: 08June2026v1
+! Version: 02July2026v1
 ! Expires: 5 days
 ! Description: Do you feel that Friendship is Magic overstayed its welcome? Here's a list that'll let you keep more of a distance to it.
-! Motivation: You probably think that I'm one of those "Men shouldn't watch My Little Pony" fools? Nope, on the contrary. Being a fulltime viewer of actual preschool cartoons (read: Nella the Princess Knight, The Dog & Pony Show, etc.), and have therefore seen just how staggeringly irrational that bronies can act towards them, I consider bronies to be fakers who preach hatred, destruction, and clan mentality, and I strongly regret that I was once one of them, many years ago.
+! Motivation: You probably think that I'm one of those "Men shouldn't watch My Little Pony" fools? Nope, on the contrary. Being a fulltime viewer of actual preschool cartoons (read: Nella the Princess Knight, The Dog & Pony Show, Isadora Moon, etc.), and have therefore seen just how staggeringly irrational that bronies can act towards them, I consider bronies to be fakers who preach hatred, destruction, and clan mentality, and I strongly regret that I was once one of them, many years ago.
 ! Note: I am on good terms with MLP G3 (the 2000's version), and this list will therefore usually not cover some shared terms between that version and FiM, such as 'Pinkie Pie' and 'Scootaloo'.
 ! Note 2: As of 1 August 2024, it's been 14 years, roughly half of my life thus far, of pain, misery, and horror almost every day of that half of my life. Rubbish episode plots after S1, the most incompetent fandom in history and the absurdly false lies they make up every day (I'm not forgetting the Gullierme Fraud, the claims they made about the Indianapolis terror attack, or the Melowy accusations any time soon), and the fandom and the show alike dragging G3 into the mud to the point only Starsong is still at good health.
 ! Note 3, 16 March 2026: The nightmare never ends the nightmare never ends the nightmare never ends the nightmare never ends the nightmare never ends the nightmare never ends the nightmare never ends the nightmare never ends the nightmare never ends the nightmare never ends the nightmare never ends the nightmare never ends the nightmare never ends the nightmare never ends the nightmare never ends the nightmare never ends the nightmare never ends the nightmare never ends the nightmare never ends the nightmare never ends the nightmare never ends the nightmare never ends the nightmare never ends the nightmare never ends the nightmare never ends the nightmare never ends the nightmare never ends the nightmare never ends the nightmare never ends
@@ -4433,8 +4433,11 @@ siivagunner.fandom.com##a[href$="Slider_(Original_Version)_-_Super_Mario_64"]
 siivagunner.fandom.com##li:has(>a[href$="Slider_(Multiplayer_Version)_-_Super_Mario_64_DS"])
 siivagunner.fandom.com##a[href$="Slider_(Multiplayer_Version)_-_Super_Mario_64_DS"]
 twitch.tv##li[class^=InjectLayout-sc-]:has-text(/^.*uttershy.*$/i)
+twitch.tv##li[class^=InjectLayout-sc-]:has-text(/^.*friendship\s?is\s?magic.*$/i)
 reddit.com##shreddit-comment:has(> div > div > p:has-text(/friendship\s?is\s?magic/i)):remove()
 reddit.com##shreddit-comment[author$=aunaJoy]:remove()
+medibang.com##.picturelist-cont-detail:has-text(/^.*(brony|pon[iy]fied|ap{2}le ?blo{2}m|flut{2}er ?shy).*$/i)
+apps.microsoft.com##sl-carousel-item:has(> a[href*="9nhlrczr7sq6"])
 
 ! ——— 🇳🇴🇸🇪🇩🇰🇫🇮 Nordics - Norden ———
 
