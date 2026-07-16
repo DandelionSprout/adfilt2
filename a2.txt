@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 3.18]
 ! Title: 🏡 a2.txt
-! Version: 14July2026v2-Personal
+! Version: 16July2026v1-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suﬀixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-oﬀ pre-alpha list concepts of mine.
 !#if !env_mv3
@@ -95,6 +95,10 @@ rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,ten
 rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img[title*=" kexoni"])
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"]):has(a[href$="users/125572883"]):remove()
 twitch.tv##.vod-message:has-text(/^.*(amingInADH|[Pr]egnan| chatlet).*$/i)
+|https://github.com/notifications/indicator|
+|https://github.githubassets.com/assets/notifications-global-
+|https://github.githubassets.com/assets/apple-touch-icon-144x144-
+||github.com/in-product-messaging/copilot-budget-request-banner^
 
 ! ——— Loosely assorted hipsters ———
 artstation.com#?#:is(.gallery-grid-item,.project):has-text(Barkhat Gay Traveler)
