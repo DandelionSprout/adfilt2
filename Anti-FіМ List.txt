@@ -1382,6 +1382,7 @@ pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"]):h
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"]):has(a[href$="users/25307790"]):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"]):has(a[href$="users/67739761"]):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"]):has(a[href$="users/3995994"]):remove()
+pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"]):has(a[href$="users/3334143"]):remove()
 pixiv.net#?#li[class*=" "]:has(>div>div>a:has-text(/^twi$/))
 !#endif
 !#if env_mobile
@@ -4434,6 +4435,10 @@ siivagunner.fandom.com##li:has(>a[href$="Slider_(Multiplayer_Version)_-_Super_Ma
 siivagunner.fandom.com##a[href$="Slider_(Multiplayer_Version)_-_Super_Mario_64_DS"]
 twitch.tv##li[class^=InjectLayout-sc-]:has-text(/^.*uttershy.*$/i)
 twitch.tv##li[class^=InjectLayout-sc-]:has-text(/^.*friendship\s?is\s?magic.*$/i)
+twitch.tv##li[class^=InjectLayout-sc-]:has-text(/^.*bron(y|ies).*$/i)
+twitch.tv##li[class^=InjectLayout-sc-]:has-text(/^.*rainbow ?factory.*$/i)
+twitch.tv##li[class^=InjectLayout-sc-]:has-text(/^.* (mlp|pony) music.*$/i)
+twitch.tv##li[class^=InjectLayout-sc-]:has-text(/^.*my little pony.*song.*$/i)
 reddit.com##shreddit-comment:has(> div > div > p:has-text(/friendship\s?is\s?magic/i)):remove()
 reddit.com##shreddit-comment[author$=aunaJoy]:remove()
 medibang.com##.picturelist-cont-detail:has-text(/^.*(brony|pon[iy]fied|ap{2}le ?blo{2}m|flut{2}er ?shy).*$/i)
