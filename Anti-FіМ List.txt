@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 3.18]
 ! Title: 👸 Anti-"FіМ and MLP G6" List
-! Version: 02July2026v1
+! Version: 09August2026v1
 ! Expires: 5 days
 ! Description: Do you feel that Friendship is Magic overstayed its welcome? Here's a list that'll let you keep more of a distance to it.
 ! Motivation: You probably think that I'm one of those "Men shouldn't watch My Little Pony" fools? Nope, on the contrary. Being a fulltime viewer of actual preschool cartoons (read: Nella the Princess Knight, The Dog & Pony Show, Isadora Moon, etc.), and have therefore seen just how staggeringly irrational that bronies can act towards them, I consider bronies to be fakers who preach hatred, destruction, and clan mentality, and I strongly regret that I was once one of them, many years ago.
@@ -4439,6 +4439,7 @@ twitch.tv##li[class^=InjectLayout-sc-]:has-text(/^.*bron(y|ies).*$/i)
 twitch.tv##li[class^=InjectLayout-sc-]:has-text(/^.*rainbow ?factory.*$/i)
 twitch.tv##li[class^=InjectLayout-sc-]:has-text(/^.* (mlp|pony) music.*$/i)
 twitch.tv##li[class^=InjectLayout-sc-]:has-text(/^.*my little pony.*song.*$/i)
+twitch.tv##li[class^=InjectLayout-sc-]:has-text(/^.*princes{2} ?luna.*$/i)
 reddit.com##shreddit-comment:has(> div > div > p:has-text(/friendship\s?is\s?magic/i)):remove()
 reddit.com##shreddit-comment[author$=aunaJoy]:remove()
 medibang.com##.picturelist-cont-detail:has-text(/^.*(brony|pon[iy]fied|ap{2}le ?blo{2}m|flut{2}er ?shy).*$/i)
