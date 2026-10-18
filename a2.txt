@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 3.18]
 ! Title: 🏡 a2.txt
-! Version: 29September2026v1-Personal
+! Version: 18October2026v1-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suﬀixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-oﬀ pre-alpha list concepts of mine.
 !#if !env_mv3
@@ -85,6 +85,7 @@ rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,ten
 ||copilot-copilot-msft-com.trafficmanager.net^
 ||api.githubcopilot.com^
 ||ms-sso.copilot.com^
+||github.githubassets.com/assets/keyboard-shortcuts-dialog.
 $all,app=Notepad.exe
 ||mil^$all
 ||hikarifield.co.jp^$doc,reason="Weebery."
@@ -105,6 +106,15 @@ twitch.tv##.vod-message:has-text(/^.*(amingInADH|[Pr]egnan| chatlet).*$/i)
 ||redddit.com^$all,reason="Feilstaving."
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.Comment,.thing,shreddit-comment,article.w-full):has-text(/d[i]a{1}p[e]r/i)
 ||github.com/hifihedgehog^$all,reason="Kristenskroting."
+rule34.xxx##span.thumb:has(img[alt*=rosalina])
+twitch.tv##.chat-input.jZSZBP.Layout-sc-1xcs6mc-0
+twitch.tv##.side-nav
+startpage.com##.anonymous-view-link
+matbenetti17.artstation.com##div[class^=col-][class*=" "]:has(.album-grid-item-name:has-text(/^.*(winx|tecna|specialist|trix ).*$/i):has-text(/^.*re-?design.*$/i))
+www.artstation.com##projects-list-item:has(img:is([alt*=redesign i]):is([alt*=winx i],[alt*=tecna i]))
+rule34.xxx###post-comments
+||reddit.$removeparam=tl
+discord.com##li[class^=channel__]:has(a[href="/shop"])
 
 ! ——— Loosely assorted hipsters ———
 artstation.com#?#:is(.gallery-grid-item,.project):has-text(Barkhat Gay Traveler)
@@ -139,6 +149,9 @@ www.deviantart.com##div[style^="width:"][style*="display:"]:has(a[href*="/art/"]
 ||rule34.xyz^$doc,popup,domain=~too_much_unblockable_futanari.*
 rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,tentaclerape.net##.thumb:has(img[title*=dendrawx])
 ||reddit.com/r/raspberrypi^$doc,reason="Hipstertapere."
+www.tumblr.com##div[tabindex]:has-text(/tinkerbell/i)
+tumblr.com,~www.tumblr.com##div[data-login-wall-type=archivePost]:has(span:has-text(Tinkerbell))
+rule34.xxx##.thumb:has(img[alt~="teen_titans_(television_series)"])
 
 ! Must keep the "www." part.
 www.adressa.no##a[href*=trdby]
