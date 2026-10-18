@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 3.18]
 ! Title: 🏡 a2.txt
-! Version: 18October2026v1-Personal
+! Version: 18October2026v2-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suﬀixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-oﬀ pre-alpha list concepts of mine.
 !#if !env_mv3
@@ -242,6 +242,7 @@ furaffinity.net##figure[id]:has(figcaption a[href*="/view/"][title*="title is to
 furaffinity.net##figure[id]:has(figcaption a[href*="/view/"][title*="title too long" i])
 furaffinity.net##figure[id]:has(figcaption a[href*="/view/"][title="long title" i])
 furaffinity.net##figure[id][class*=ucashurford199]
+deviantart.com##a[data-hook][href*="/art/"][href*=thomas i]
 
 ! I don't trust those requests.
 ||mc.yandex.ru^$domain=sotwe.com
