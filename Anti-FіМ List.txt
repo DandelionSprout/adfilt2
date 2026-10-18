@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 3.18]
 ! Title: 👸 Anti-"FіМ and MLP G6" List
-! Version: 09August2026v1
+! Version: 18August2026v1
 ! Expires: 5 days
 ! Description: Do you feel that Friendship is Magic overstayed its welcome? Here's a list that'll let you keep more of a distance to it.
 ! Motivation: You probably think that I'm one of those "Men shouldn't watch My Little Pony" fools? Nope, on the contrary. Being a fulltime viewer of actual preschool cartoons (read: Nella the Princess Knight, The Dog & Pony Show, Isadora Moon, etc.), and have therefore seen just how staggeringly irrational that bronies can act towards them, I consider bronies to be fakers who preach hatred, destruction, and clan mentality, and I strongly regret that I was once one of them, many years ago.
@@ -2366,6 +2366,15 @@ tumblr.com##div.post:has-text(ピンカミーナ/i)
 tumblr.com##div.post:has-text(フラタシャイ/i)
 tumblr.com##div.post:has-text(フラッターシャイ/i)
 tumblr.com##div.post:has-text(フラッフルパフ/i)
+! ••• Individual users' "Archives"
+tumblr.com,~www.tumblr.com##div[data-login-wall-type=archivePost]:has(a[href*=luttersh])
+tumblr.com,~www.tumblr.com##div[data-login-wall-type=archivePost]:has(a[href*=g6]:is([href*=mlp],[href*=pony],[href*=dash],[href*=pinkie],[href*=pplejack],[href*=style],[href*=twil]))
+tumblr.com,~www.tumblr.com##div[data-login-wall-type=archivePost]:has(a[href*=forever-friendship])
+tumblr.com,~www.tumblr.com##div[data-login-wall-type=archivePost]:has(a[href*="/derpy-"])
+tumblr.com,~www.tumblr.com##div[data-login-wall-type=archivePost]:has(a[href*=faster-than-lightning])
+tumblr.com,~www.tumblr.com##div[data-login-wall-type=archivePost]:has(p:has-text(Forever Friendship))
+tumblr.com,~www.tumblr.com##div[data-login-wall-type=archivePost]:has(span:has-text(Forever Friendship))
+tumblr.com,~www.tumblr.com##div[data-login-wall-type=archivePost]:has(a[href*=twi][href*=pinkie])
 
 ! 🇺🇸 DailyMotion
 dailymotion.com#?#[class*=__videoCard___]:has-text(/Bron\ies/i)
