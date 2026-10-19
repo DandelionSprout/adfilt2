@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 3.18]
 ! Title: 🏡 a2.txt
-! Version: 18October2026v2-Personal
+! Version: 19October2026v1-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suﬀixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-oﬀ pre-alpha list concepts of mine.
 !#if !env_mv3
@@ -115,6 +115,8 @@ www.artstation.com##projects-list-item:has(img:is([alt*=redesign i]):is([alt*=wi
 rule34.xxx###post-comments
 ||reddit.$removeparam=tl
 discord.com##li[class^=channel__]:has(a[href="/shop"])
+||static-cdn.jtvnw.net/emoticons/v2/emotesv2_465c1c5526a04b9aaad3aad6f2d1a218^
+||treexy.com^$doc,reason="Their driver download buttons are utterly fake."
 
 ! ——— Loosely assorted hipsters ———
 artstation.com#?#:is(.gallery-grid-item,.project):has-text(Barkhat Gay Traveler)
@@ -268,7 +270,7 @@ sims.fandom.com##.mw-spcontent li:has-text(Category talk:)
 ! Idiotic news topics.
 adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,nidaros.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=mccann i]
 
-! Since I have no plans to buy a Chromecast in the near future.
+! Since I have no plans to buy a Chromecast in the foreseeable future.
 ://www.gstatic.com/*/cast_
 
 ! https://short-wave•info/index•php (20/09/2025; the stations in question are usually propaganda somehow)
@@ -325,6 +327,12 @@ github.com##div[class*=__developmentSectionContainer]
 ! For the hosts files in my various Hyper-V VMs.
 :: ads.mozilla.org
 :: incoming.telemetry.mozilla.org
+
+! wolfstreamsCFD
+||st.chatango.com^$subdocument
+! live•totalsportek•vg
+||youtube.com/live_chat*&embed_domain=live.totalsportek.$subdocument
+totalsportek.*##.chat-wrapper
 
 ! ——/——/——/——/——/——/——/——/——/——/——/——/——/——/——/——/——/——/——/——/——/——/——/——
 ! Moved over from a.txt, for security reasons in case I am to hire a 3rd maintainer to Adfilt.
