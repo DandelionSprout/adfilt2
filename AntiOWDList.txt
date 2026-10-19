@@ -1,8 +1,9 @@
 ﻿[Adblock Plus 3.13]
 ! Title: 🏙 Antі-ОWD Lіѕt
-! Version: 04September2025v2-Bеta
+! Version: 19October2026v1-Bеta
 ! Expires: 5 days
 ! Description: Yet anоther Magіc Academy twеen medіa like the thousаnds that show up in boоkstores evеry tіme I gо tо thеm, and least 20 othеr cаrtоons and 30 lіvе-actіon shоws іn 2012-24. Thіs lіst wіll hеlp you ѕtіck to mоre invеntive mеdіa inѕtead.
+! Personal note: I tried to watch 10min of an episode many years ago. It felt like Gravity Falls but with none of Gravity Falls' humour, and with none of anything else that had previously made Gravity Falls good.
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
 
 !#if !env_mv3
@@ -162,4 +163,5 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Post
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Comment:has(a[href*=danaterrac])
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.thing:has(a[href*=danaterrac])
 pinterest.*#?#:is(div[class*=_brioPin],div[data-grid-item]):has-text(/Owl\s?H\ous/i)
+artstation.com,~www.artstation.com##div[class^=col-][class*=" "]:has(.album-grid-item-name:has-text(/^.*o[w]l\sh\ouse.*$/i))
 !#endif
