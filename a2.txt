@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 3.18]
 ! Title: 🏡 a2.txt
-! Version: 19October2026v2-Personal
+! Version: 20October2026v1-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suﬀixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-oﬀ pre-alpha list concepts of mine.
 !#if !env_mv3
@@ -60,15 +60,15 @@ download.gnome.org##:is([href*=".exe" i],[href*=".msi" i],[href*=".appx" i],[hre
 download.epson-europe.com##a:is([href$=".msi"],[href$=".zip"]):style(background-color:orange!important)
 $all,app=TS3W.exe
 rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img:is([title~=anus],[title*=anus_],[title*=" anus"]))
-rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img:is([title*=partial_male],[title*=faceless_male],[title~=penis],[title~=dick],[title~=cock],[title*=dick_out],[title*="3boy"],[title*="4boy"],[title*="5boy"],[title*="6boy"],[title*="7boy"],[title*="8boy"],[title*="9boy"],[title~=male_only],[title*=big_penis],[title*=large_penis],[title*=huge_penis],[title*=hyper_penis],[title*=paizuri],[title~=cum])
+rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img:is([title*=partial_male],[title*=faceless_male],[title~=penis],[title~=dick],[title~=cock],[title*=dick_out],[title*="3boy"],[title*="4boy"],[title*="5boy"],[title*="6boy"],[title*="7boy"],[title*="8boy"],[title*="9boy"],[title~=male_only],[title*=big_penis],[title*=large_penis],[title*=huge_penis],[title*=hyper_penis],[title*=paizuri],[title~=cum]))
 rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img:is([title*=ripped_cloth],[title*=ripped_bodysu],[title*=torn_cloth],[title*=torn_bodysu],[title*=wardrobe_malfunct]))
 rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img:is([title*=pregnan],[title*=impregna]))
 rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img:is([title~=anal],[title^=anal_]))
 rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img:is([title^=anal],[title*=" anal"]):not([title*=analog]))
 [title*=torn_bodysu],[title*=wardrobe_malfunct]))
-rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img:is[title*=hristian_cros])
-rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img:is[title*=hristian_symbo])
-rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img:is[title*=ross_necklac])
+rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img[title*=hristian_cros])
+rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img[title*=hristian_symbo])
+rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img[title*=ross_necklac])
 github.com##a#code-view-repo-link[href$="/adfilt"] ~ div .react-directory-row:has-text(/^.*(Happ\y\T\i\me\FunClub|R\ickrollL\ink\Ident\if\ier|Ass\istantReborn|Extre\mel\yCondensedL\ist|GDPR\s451|Battle\sRo\yale|Fake\sNot\if\icat\ion\s|Userna\me\sH\ider|Google\sHangout|Tw\itterPureRead\ing\Exper\ience|A\mazonL\ist\For\Tw\itch|D\isallowed\IPs|Anno\y\ingBannersAnd\Overla\ys|\sCarols|Pro-L\ED|Ant\iPork\Meat\OnRestaurant\MenusL\ist|Anc\ientL\ibrar\y|Ant\i-Sk\ype\sL\ist|Ant\iPepeL\ist|AntiKpopSpammersTwitter|TwitchPureViewingExperience|WordPressTranslatorAssistant).*$/i):style(background-color: #5E3350 !important)
 ||wikipedia.org/portal/wikipedia.org/assets/img/wikipedia25-$media
 www.wikipedia.org##.wikipedia25-play-button
