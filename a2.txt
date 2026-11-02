@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 3.18]
 ! Title: 🏡 a2.txt
-! Version: 24October2026v2-Personal
+! Version: 02November2026v1-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suﬀixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-oﬀ pre-alpha list concepts of mine.
 !#if !env_mv3
@@ -54,10 +54,6 @@ $removeparam=/^$/
 $removeparam=//
 $removeparam=/^.{0}$/
 rule34.xxx##li:has(> [href*="tsyndicate.com"])
-videolan.org,archive.mozilla.org##:is([href*=".exe" i],[href*=".msi" i],[href*=".appx" i],[href*=winrt i],[href$=".zip"]):style(background-color:orange!important)
-cdn.kde.org,download.kde.org##:is([href*=msix i],[href$=".appx" i],[href*=winrt i],[href$=".zip" i]):style(background-color:orange!important)
-download.gnome.org##:is([href*=".exe" i],[href*=".msi" i],[href*=".appx" i],[href*=winrt i]):style(background-color:orange!important)
-download.epson-europe.com##a:is([href$=".msi"],[href$=".zip"]):style(background-color:orange!important)
 $all,app=TS3W.exe
 rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img:is([title~=anus],[title*=anus_],[title*=" anus"]))
 rule34.xxx,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img:is([title*=partial_male],[title*=faceless_male],[title~=penis],[title~=dick],[title~=cock],[title*=dick_out],[title*="3boy"],[title*="4boy"],[title*="5boy"],[title*="6boy"],[title*="7boy"],[title*="8boy"],[title*="9boy"],[title~=male_only],[title*=big_penis],[title*=large_penis],[title*=huge_penis],[title*=hyper_penis],[title*=paizuri],[title~=cum]))
@@ -1382,5 +1378,9 @@ meny.no##.ws-product-list-vertical__item:has-text(Faxe)
 
 ! Marks receivers with Dandelion Sprout's eARC More-or-Less Certification with green background in search results.
 finn.no##.sf-search-ad:has-text(/^.*(AVR[ -]?X1600 ?H|AVR[ -]?X2[68]00H|RX[ -]?V6A|TX[ -]?NR[67]100|AVC[ -]?670 ?H|AVR[ -]?S750 ?H|RX[ -]?A8A|AVR[ -]?X1800 ?H|NR5100|TX[ -]?RZ[37]0|Marantz Cinema [456]0|LX[13]05|VSX[ -]?[58]35|AVR[ -]?S650 ?H|MRX[ -]?540|RZ50|AVR[ -]?S570|S[6-9]70H|AVCX[ -]?4700|RX[ -]?A6A|Marantz[ -]?8805A|Marantz[ -]?AV[ -]?20|X\d800H|X3700H|RX[ -]?A[2468]A|aventage|TX[ -]?RZ[35]0|TX[ -]?NR1600|TX[ -]?NR5100|LX305|AVR[ -]?A1H).*$/i):style(background-color:green!important)
+
+! Already in Vertical Stretcher, but I really, really, REALLY need those entries on my mobile phone(s) as well
+lostmediawiki.com##.sidebar-sticky:style(max-width:150px!important;min-width:unset!important;width:unset!important)
+lostmediawiki.com###maincontentwrapper:style(max-width:calc(100vw - 320px)!important)
 
 ! ——/——/——/——/——/——/——/——/——/——/——/——/——/——/——/——/——/——/——/——/——/——/——/——
