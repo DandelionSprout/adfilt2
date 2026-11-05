@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 3.18]
 ! Title: 🏡 a2.txt
-! Version: 05November2026v2-Personal
+! Version: 05November2026v3-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suﬀixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-oﬀ pre-alpha list concepts of mine.
 ! !#if !env_mv3
@@ -1231,7 +1231,6 @@ disneyplus.com##div[class$=-asset]:has(a[data-gv2elementvalue^=d700e4])
 www.disneyplus.com##div:has(> a:is([aria-label*=loki i],[aria-label*=avengers i],[aria-label*="winter soldier" i],[aria-label*="camp rock" i],[aria-label*=marvel i],[aria-label*="s burgers" i],[aria-label*="frustrerte fruer" i],[aria-label*="ramona og beezus" i],[aria-label*="z-o-m-b-i-e-s" i],[aria-label*=descendants i],[aria-label*=waverly i],[aria-label*=twitches i],[aria-label*=bride i],[aria-label*=love i],[aria-label*="kjærlighet" i],[aria-label*=nativity i],[aria-label*=miraklet i],[aria-label*=dog i],[aria-label*=valp i],[aria-label*=chihuahua i],[aria-label*=bryllup i],[aria-label*=fe-eventyr i],[aria-label*="Den utrolige reisen" i],[aria-label*="modern family" i],[aria-label*=mandalorian i],[aria-label*=wandavision i],[aria-label*=married i],[aria-label*=romeo i],[aria-label*=Float],[aria-label*=Cabelleros i],[aria-label*=starwars i],[aria-label*=star-wars i],[aria-label*="star wars" i],[aria-label*=christmas i],[aria-label*=captain-america i],[aria-label*="captain america" i],[aria-label*=hulk i],[aria-label*=hund i]:not([alt*=bolt i],[alt*=simpsons i],[alt*=guy i]),[aria-label*=selena i],[aria-label*=Kenobi i],[aria-label*=Ahsoka i],[aria-label*=Yoda i],[aria-label*=hansolo i],[aria-label*=han-solo i],[aria-label*="Han Solo" i],[aria-label*=Jul i],[aria-label*=Kingsman i],[aria-label*=Nisse i],[aria-label*=Snø i]:not([alt*=hvit i]),[aria-label*=Snow i]:not([alt*=white i])))
 
 ! Conspiracy cults that spread blatant shameful lies that have been disproved for ≥10 years (about e.g. DAB, WebP, windmills, VAR, Epic Games Store, etc.)
-!#if !adguard_app_windows
 ||publicaccess.se^
 ||public-service.net^
 ||kringkastingslaget.com^
@@ -1240,7 +1239,6 @@ www.disneyplus.com##div:has(> a:is([aria-label*=loki i],[aria-label*=avengers i]
 ||motvind.org^$all
 ||wind-watch.org^$all
 ||diskutopia.no^
-!#endif
 ||arstechnica.com^
 ||reddit.com/r/fuckepic^$doc
 adressa.no,nrk.no,tv2.no,vg.no,dagbladet.no,nettavisen.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=supporterklubb i]
@@ -1351,12 +1349,10 @@ www.tumblr.com#?#div[data-cell-id^=post-]:has(span p:has-text(/^.*w\itchblr.*$/i
 www.tumblr.com#?#div[data-cell-id^=post-]:has(span p:has-text(/^.*w\izardblr.*$/i)):watch-attr(class):watch-attr(style)
 www.tumblr.com#?#div[data-cell-id^=post-]:has(span p:has-text(/^lgc.*$/)):watch-attr(class):watch-attr(style)
 www.tumblr.com#?#div[data-cell-id^=post-]:has(span p:has-text(ARAB WORLD NEWS:)):watch-attr(class):watch-attr(style)
-!#endif
 
 ! Installed by PUP nightmares
 ||360totalsecurity.com^$all
 ||360safe.com^$all
-!#endif
 
 ! I've had it with Elkjøp screwing over their own previous reputations and instead selling 95% of their products through 3rd-party web sellers who haven't been bothered to even test their own damn products before selling them to people (I'm looking at you, Cadorabo).
 !!!www.google.*,ipv6.google.com##:is(.g,.ivg-i,.isv-r):has(a[href*="://www.elkjop.no/"],a[href*="://www.elon.no/"],a[href*="://www.onninen.no/"])
@@ -1377,13 +1373,3 @@ lostmediawiki.com##.sidebar-sticky:style(max-width:150px!important;min-width:uns
 lostmediawiki.com###maincontentwrapper:style(max-width:calc(100vw - 320px)!important)
 
 ! ——/——/——/——/——/——/——/——/——/——/——/——/——/——/——/——/——/——/——/——/——/——/——/——
-!#endif
-!#endif
-!#endif
-!#endif
-!#endif
-!#endif
-!#endif
-!#endif
-!#endif
-!#endif
