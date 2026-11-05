@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 3.18]
 ! Title: 🏡 a2.txt
-! Version: 02November2026v1-Personal
+! Version: 02November2026v2-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suﬀixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-oﬀ pre-alpha list concepts of mine.
 !#if !env_mv3
@@ -9,9 +9,7 @@
 !#include AntiPorkMeatOnRestaurantMenusList.txt
 !#include HaveIBeenPwnedPasteRemover.txt
 !#include MahsaAminiMemorialList.txt
-!#if !adguard_app_windows
 !#include UndertaleRemoverForSoundCloud.txt
-!#endif
 !#endif
 !#endif
 !#endif
@@ -391,7 +389,6 @@ vinmonopolet.no##.product-item:has-text(/\sØl\s|Chardon{2}a\y|Lager|Muscat|R\is
 finn.no###buyer-experience-collections-podlet-app
 order.stjernegrillen.no##.uk-animation-scale-up:has-text(/Bacon|Pepperoni|Skinke|Sjampingjong|champignon|Jalapeño|Reker|Tabasco/i)
 deviantart.com##div[style^="width:"][style*="display:"]:has(img[alt*="Adopts " i])
-!#if !adguard_app_windows
 ||fileplanet.com^$all
 www.tumblr.com##:is(div[data-timeline*="/timeline/"] div[style^=width] > div[tabindex],div[data-timeline*="/blog/"] header + div + div > div):has-text(/^.*tourna\ment.*$/i):has-text(/^.*pol{2}.*$/i)
 www.tumblr.com##:is(div[data-timeline*="/timeline/"] div[style^=width] > div[tabindex],div[data-timeline*="/blog/"] header + div + div > div):has-text(/#.*incor{2}ect[a-z0-9 ]{0,20}quote.*note/i)
@@ -533,9 +530,6 @@ tumblr.com##div[data-timeline*=notes_info] div[data-cell-id]:has-text(/#.*(\s|#)
 tumblr.com##div[data-timeline*=notes_info] div[data-cell-id]:has-text(/^.*#.*headcann?on.*$/i):watch-attr(class):watch-attr(style)
 tumblr.com##div[data-timeline*=notes_info] div[data-cell-id]:has-text(/^.*p\icrew.*$/i):watch-attr(class):watch-attr(style)
 tumblr.com##div[data-timeline*=notes_info] div[data-cell-id]:has-text(/^.*fa\ir\iesandbeatleslover.*$/i):watch-attr(class):watch-attr(style)
-!#if false
-tumblr.com##div[data-timeline*="/blog/"] header + div:has-text(/^.*\mo{2}dboard.*$/i)
-!#endif
 tumblr.com##div:is([aria-label=Replay i],[aria-label=Like i],[aria-label=Reblog i]):has-text(/^.*tourna\ment.*$/i):has-text(/^.*pol{2}.*$/i)
 tumblr.com##div:is([aria-label=Replay i],[aria-label=Like i],[aria-label=Reblog i]):has-text(/#.*incor{2}ect[a-z0-9 ]{0,20}quote.*note/i)
 tumblr.com##div:is([aria-label=Replay i],[aria-label=Like i],[aria-label=Reblog i]):has-text(/^.*bab\y\s?factor\y.*$/i)
@@ -634,7 +628,6 @@ www.tumblr.com#?#div:is([data-timeline*="/timeline/hub"],[data-timeline*="/timel
 ! I am absolutely embarrassed by how short memory spans people online have. It's "Han shot first" on metamphetamine.
 ! That being said, I think the world understood "Okay, okay, we get it, you are able to do brutal counterattacks, okay." as early as December. 5 months later, it seems like Fist of the North Star's ruined cities are considered the intended goal.
 tumblr.com#?#:is(.post,div[data-cell-id][style]:not([data-cell-id*=timelineObject i]),div[tabindex]:is([style^=m],[data-id]:not([class*=" "]),:not([style],[class]))):has-text(/^.*(g[aа]za|palest\in|isr[аa]el|(\s|#)ha\mas|z\i\on).*note.*$/i):not(:has-text(/emozion/i)):watch-attr(class):watch-attr(style)
-!#endif
 player.pop.co.uk##.swiper-slide:has(object[alt*=Roblox i],object[alt*=CoComelon i],object[alt*=Blippi i],object[alt*="Swipe " i])
 bing.*##.scroll_cont
 deviantart.com##a[href*="?topic="]:is([href*=powerpuff],[href*=equestria i],[href*=danny-phantom],[href*=cookie-run])
@@ -750,7 +743,7 @@ theguardian.com##article:not([class],[id])
 ! In 2024 there had been a tad too many "Check out Fandom's question session next Tuesday", "__,___ people have visited the pages you've edited", etc.
 fandom.com##.notifications__counter
 
-!if !env_mobile
+!#if !env_mobile
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"]):has-text(/^.*fe{2}t\ies.*$/i):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt^="blocked," i]):remove()
 pixiv.net##.grid-flow-dense > div[class^=col-span-]:has(a[href*="/artworks/"] img[alt*=oot i][alt*=worship i]):remove()
