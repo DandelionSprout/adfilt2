@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 3.18]
 ! Title: 🏡 a2.txt
-! Version: 06November2026v2-Personal
+! Version: 06November2026v3-Personal
 ! Expires: 12 hours
 ! Description: This list, and any other lists whose version is suﬀixed with "-Personal", are _NOT_ intended for public use, except for 1) those who wish to authentically reproduce my list setup in issue reports, and 2) enthusiasts who want to try out pre-spin-oﬀ pre-alpha list concepts of mine.
 !#include AntiPorkMeatOnRestaurantMenusList.txt
@@ -95,6 +95,7 @@ twitch.tv##li[class^=InjectLayout-sc-]:has-text(/^.*kerr?op{2}.*$/i)
 twitch.tv##li[class^=InjectLayout-sc-]:has-text(/^.*s[a]nr\io.*$/i)
 twitch.tv##li[class^=InjectLayout-sc-]:has-text(/^.*hel{2}o\s?kit{2}y.*$/i)
 twitch.tv##li[class^=InjectLayout-sc-]:has-text(/^.*cin{2}amo{1}rol.*$/i)
+twitch.tv##li[class^=InjectLayout-sc-]:has-text(/^.*ba[d]tz.*$/i)
 |https://github.com/notifications/indicator|
 |https://github.githubassets.com/assets/notifications-global-
 |https://github.githubassets.com/assets/apple-touch-icon-144x144-
