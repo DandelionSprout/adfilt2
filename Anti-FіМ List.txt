@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 3.18]
 ! Title: 👸 Anti-"FіМ and MLP G6" List
-! Version: 06November2026v1
+! Version: 06November2026v2
 ! Expires: 5 days
 ! Description: Do you feel that Friendship is Magic overstayed its welcome? Here's a list that'll let you keep more of a distance to it.
 ! Motivation: You probably think that I'm one of those "Men shouldn't watch My Little Pony" fools? Nope, on the contrary. Being a fulltime viewer of actual preschool cartoons (read: Nella the Princess Knight, The Dog & Pony Show, Isadora Moon, etc.), and have therefore seen just how staggeringly irrational that bronies can act towards them, I consider bronies to be fakers who preach hatred, destruction, and clan mentality, and I strongly regret that I was once one of them, many years ago.
@@ -4280,6 +4280,10 @@ twitch.tv##li[class^=InjectLayout-sc-]:has-text(/^.*ra\in{1}b\ow\s?d[a]sh.*$/i)
 twitch.tv##li[class^=InjectLayout-sc-]:has-text(/^.*p\in{1}k\ie\s?p\ie.*$/i)
 twitch.tv##li[class^=InjectLayout-sc-]:has-text(/^.*(tw\il\ig[h]t|tr\ix\ie).*p\on.*$/i)
 twitch.tv##li[class^=InjectLayout-sc-]:has-text(PINKIE)
+twitch.tv##li[class^=InjectLayout-sc-]:has-text(/^.*flur{2}\y\sh[e]ar{1}t.*$/i)
+twitch.tv##li[class^=InjectLayout-sc-]:has-text(/^.*b[e]st\sp\on\y.*$/i)
+twitch.tv##li[class^=InjectLayout-sc-]:has-text(/^.*ap{2}le\s?\ja[c]k.*$/i)
+twitch.tv##li[class^=InjectLayout-sc-]:has-text(/^.*st[a]rl\igh{1}t\s?gl\im{2}er.*$/i)
 
 ! 🇸🇪 Playpilot
 playpilot.com##div[data-name]:has([href$=friendship-is-magic])
